@@ -39,7 +39,10 @@ shown to select the certificate semantics, the complete signature, or
 \(\GMVP\). We further derive the certificate semantics from complete
 variational-response identity on the physical quotient and prove, by a hidden
 covector countermodel, that response completeness is necessary.  Nature-level
-occupation of that identity remains open.
+occupation of that identity remains open. Finally, we reconstruct and rerun
+the existing once-counted ledger: its ordered Hessian, Schur reduction and
+duplicate-source controls are structurally closed, while filling that ledger
+with one physical microscopic base--seed functional remains open.
 \end{abstract}
 
 \tableofcontents
@@ -255,6 +258,84 @@ functions of the same Fenchel--Young defect can retain the certificate
 relation.  Their exclusion belongs to the once-counted composition audit in
 W3.
 
+\section{Once-counted Hessian ledger}
+
+The ledger calculation need not be rebuilt from scratch. Its previously
+separate body, post-body and effective-field calculations can be stated in one
+common notation. After the body solve, let \(b\) denote the frozen body tangent
+and \(c\) the post-body variables. The ordered linearized equations have the
+form
+\begin{equation}
+ \begin{pmatrix}H_B&0\\G&H_C\end{pmatrix}
+ \begin{pmatrix}\delta b\\\delta c\end{pmatrix}
+ =\begin{pmatrix}j_B\\j_C\end{pmatrix}.
+ \label{eq:ordered-jacobian}
+\end{equation}
+The zero upper-right block is the body-first rule: post-body stationarity may
+depend on the stabilized body, but it does not solve the body again.
+
+For primitive relation residuals \(R_a(x)\), define their contribution once,
+\begin{equation}
+ \Gamma_R(x)=\frac12\sum_a\lVert R_a(x)\rVert^2.
+ \label{eq:residual-ledger}
+\end{equation}
+
+\begin{proposition}[Primitive-row Hessian ownership]
+At a source point where all \(R_a=0\), the exact Hessian blocks are
+\begin{equation}
+ H_{ij}^{R}=\sum_a(D_iR_a)^*D_jR_a.
+ \label{eq:gram-hessian}
+\end{equation}
+Consequently a direct cross block requires at least one primitive row touching
+both typed roles. If no such row exists, the cross block is zero.
+\end{proposition}
+
+\begin{proof}
+Twice differentiating Eq.~\eqref{eq:residual-ledger} gives a Gram term and a
+term proportional to \(R_a\). The latter vanishes at the source point, leaving
+Eq.~\eqref{eq:gram-hessian}. Every summand in an \(i,j\) cross block vanishes
+when each primitive row is blind to at least one of the two roles.
+\end{proof}
+
+The criterion is source-inventory based, not terminal based. Moreover, a
+positive-semidefinite additive correction with both inherited diagonal blocks
+fixed cannot manufacture a pure cross block: a nonzero matrix
+\(\left(\begin{smallmatrix}0&C^*\\C&0\end{smallmatrix}\right)\) has both
+positive and negative directions. A positive mixed squared residual must add
+self-stiffness as well as a cross term and therefore changes the primitive
+ledger.
+
+\begin{proposition}[Exact elimination and no recounting]
+For a quadratic retained/eliminated block Hessian
+\begin{equation}
+ H=\begin{pmatrix}H_X&M\\M^*&H_Y\end{pmatrix},\qquad H_Y>0,
+\end{equation}
+stationary elimination of \(Y\) produces the effective Hessian
+\begin{equation}
+ H_{\rm eff}=H_X-MH_Y^{-1}M^*.
+ \label{eq:schur-ledger}
+\end{equation}
+The Green operator \(H_Y^{-1}\) and the induced response are therefore derived
+objects, not additional action summands.
+\end{proposition}
+
+\begin{proof}
+Solving the \(Y\)-stationarity equation and substituting its unique solution
+into the quadratic functional gives Eq.~\eqref{eq:schur-ledger}. Adding the
+same induced response separately would alter the effective Hessian and count
+the eliminated source twice.
+\end{proof}
+
+The rerun ledger also verifies unique ownership of local counterterms and
+observer-source terms: relocation between equivalent bookkeeping sectors can
+leave the total functional unchanged, whereas duplicate placement changes its
+variation. Together with the exact closure Hessian \(K_3K_3^*\), the ordered
+post-body construction and the primitive cross-block controls, this closes W3
+as a structural audit. It does not construct the missing nonlinear
+microscopic parent. The remaining physical gap is singular: whether one
+base--seed functional fills and occupies this complete ledger with the frozen
+eight-block signature.
+
 \section{Complete source-signature selector}
 
 Let \(\mathfrak C\) be the finite set or moduli space of admissible completion
@@ -369,6 +450,8 @@ Seed occupation fixes support but not mixed Hessian & proved & seed alone is ins
 Certificate semantics selects the joint convex law & conditional theorem & unique minimal candidate\\
 Complete variational response fixes the certificate & conditional theorem & W2 source-role closure\\
 Hidden response covector defeats identification & proved & completeness is necessary\\
+Once-counted Hessian and Schur ledger & proved & W3 structural closure\\
+One microscopic parent fills the ledger & open & merged nature-selection gap\\
 Faithful complete signature has one zero class & conditional theorem & finite selection target\\
 Eight-block source target and generated-item ledger & frozen audit & prevents duplicate ownership\\
 Physical parent occupies response completeness & open & nature-selection blocker\\
@@ -388,15 +471,16 @@ The preparation phase has four bounded tasks:
  \item[\textbf{W2}] \textbf{Closed conditionally:} complete variational
  response on the nondegenerate physical quotient forces certificate semantics;
  physical occupation of response completeness remains open.
- \item[\textbf{W3}] Construct the corresponding once-counted microscopic ledger and audit
- all cross derivatives for double counting and quotient descent.
+ \item[\textbf{W3}] \textbf{Closed structurally:} the once-counted Hessian,
+ Schur, duplicate-source and cross-block audits are reconstructed and rerun;
+ physical microscopic filling is retained as the W4 selection question.
  \item[\textbf{W4}] Produce either a source theorem selecting the occupied class or a finite
  same-reduct countermodel proving that further nature-level selection is
  impossible without genuinely new typed source information.
 \end{enumerate}
 
-No fifth task may be added at the same level. Failure of W3, or failure in W4
-to source physical occupation of the W2 premise, demotes the current positive
+No fifth task may be added at the same level. Failure in W4 to source physical
+occupation of the W2 premise and the W3 ledger demotes the current positive
 candidate and fixes the no-go result as the principal Paper-IV conclusion.
 
 \section{What is not proved}

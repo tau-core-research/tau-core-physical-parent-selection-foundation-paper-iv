@@ -1,0 +1,29 @@
+{
+  "schema": "tau-core-paper-iv-w3-once-counted-ledger-import-v0.1",
+  "status": "structural_ledger_closed_physical_filling_open",
+  "rerun_checks": {
+    "gamma_mvp_once_counted_ledger": "10/10",
+    "stagewise_joint_postbody_relation": "33/33",
+    "cross_lane_source_inventory": "37/37",
+    "primitive_hessian_construction": "26/26"
+  },
+  "proved_structural_results": [
+    "body_first_lower_triangular_jacobian",
+    "residual_zero_hessian_is_jacobian_gram",
+    "closure_hessian_is_K_K_dagger",
+    "exact_schur_elimination",
+    "green_operator_is_inverse_not_extra_action_summand",
+    "counterterm_relocation_is_scheme_equivalent",
+    "duplicate_counterterm_changes_equations",
+    "duplicate_observer_term_doubles_response",
+    "shared_primitive_row_required_for_direct_cross_block",
+    "fixed_diagonal_positive_addition_cannot_create_pure_cross_block"
+  ],
+  "conditional_constructions": [
+    "stagewise_postbody_joint_candidate",
+    "locally_additive_two_edge_primitive_hessian",
+    "common_action_line_witness"
+  ],
+  "single_remaining_physical_gap": "one_base_seed_parent_fills_and_occupies_the_complete_ledger",
+  "w3_verdict": "closed_as_structural_audit_not_as_microscopic_nature_selection"
+}

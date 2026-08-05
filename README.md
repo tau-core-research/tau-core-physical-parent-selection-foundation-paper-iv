@@ -33,6 +33,11 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   the certificate to equal the body-action derivative. A hidden response
   covector gives an exact countermodel, so physical occupation of response
   completeness remains open.
+- The previously developed once-counted ledger has been rerun and imported:
+  Schur elimination, ordered body/post-body response, primitive Hessian
+  ownership and cross-block controls pass 106 combined checks. The structural
+  ledger is closed; its filling by one physical microscopic parent remains
+  open.
 
 ## Claim Boundary
 
@@ -56,3 +61,4 @@ Outputs:
 - `data/derived/selection_ledger.json`
 - `data/derived/mvp_source_signature.json`
 - `data/derived/w2_variational_certificate_audit.json`
+- `data/derived/w3_once_counted_ledger_import.json`

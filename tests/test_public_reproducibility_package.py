@@ -14,6 +14,7 @@ def test_required_files_exist():
         "data/derived/selection_ledger.json",
         "data/derived/mvp_source_signature.json",
         "data/derived/w2_variational_certificate_audit.json",
+        "data/derived/w3_once_counted_ledger_import.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -53,6 +54,16 @@ def test_w2_certificate_audit():
     assert data["w2_verdict"] == "closed_conditionally_not_nature_selected"
     assert "certificate_equals_body_action_derivative" in data["derived"]
     assert "nature_selects_gamma_mvp" in data["not_derived"]
+
+
+def test_w3_ledger_import():
+    data = json.loads(
+        (ROOT / "data/derived/w3_once_counted_ledger_import.json").read_text()
+    )
+    assert data["rerun_checks"]["gamma_mvp_once_counted_ledger"] == "10/10"
+    assert data["single_remaining_physical_gap"] == (
+        "one_base_seed_parent_fills_and_occupies_the_complete_ledger"
+    )
 
 
 def test_arxiv_archive_is_source_only():
