@@ -68,6 +68,9 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
 - Within the frozen ultralocal scalar carrier class, covariance uniquely
   selects the volume lift, hence `w_W=-1` and zero anisotropic stress. Kinetic,
   flow, directional and nonlocal alternatives are richer source types.
+- On a homogeneous-isotropic occupied branch, a Lorentz-invariant rank-one
+  novelty line is necessarily scalar under the connected Lorentz group. A
+  nontrivial orbit or preferred direction instead signals a richer carrier.
 
 ## Claim Boundary
 
@@ -99,3 +102,4 @@ Outputs:
 - `data/derived/ward_pressure_witness.json`
 - `data/derived/stress_type_branch_decision.json`
 - `data/derived/ultralocal_metric_lift_selector.json`
+- `data/derived/rank_one_lorentz_typing.json`

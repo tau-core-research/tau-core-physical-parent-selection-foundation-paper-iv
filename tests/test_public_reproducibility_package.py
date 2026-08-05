@@ -22,6 +22,7 @@ def test_required_files_exist():
         "data/derived/ward_pressure_witness.json",
         "data/derived/stress_type_branch_decision.json",
         "data/derived/ultralocal_metric_lift_selector.json",
+        "data/derived/rank_one_lorentz_typing.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -52,6 +53,7 @@ def test_manuscript_markers():
     assert "Ward-aligned no-go" in tex
     assert "Stress-type nonselection" in tex
     assert "Ultralocal scalar lift selector" in tex
+    assert "Rank-one Lorentz typing" in tex
 
 
 def test_deduplicated_signature():
@@ -142,6 +144,14 @@ def test_ultralocal_metric_lift_selector():
     assert data["equation_of_state_on_constant_occupied_branch"] == "w_W=-1"
     assert data["anisotropic_stress"] == 0
     assert len(data["escape_routes"]) == 4
+
+
+def test_rank_one_lorentz_typing():
+    data = json.loads(
+        (ROOT / "data/derived/rank_one_lorentz_typing.json").read_text()
+    )
+    assert data["connected_group_type"] == "Lorentz_scalar"
+    assert data["stress_consequence_with_ultralocal_selector"].startswith("w_W=-1")
 
 
 def test_arxiv_archive_is_source_only():

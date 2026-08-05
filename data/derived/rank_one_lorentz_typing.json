@@ -1,0 +1,14 @@
+{
+  "premises": [
+    "the_occupied_rich_novelty_is_one_dimensional",
+    "the_occupied_line_is_closed_under_the_connected_local_Lorentz_group",
+    "the_background_does_not_spontaneously_break_local_isotropy"
+  ],
+  "algebraic_fact": "so(1,3)=[so(1,3),so(1,3)]",
+  "consequence": "every_continuous_one_dimensional_real_representation_of_SOplus_1_3_is_trivial",
+  "connected_group_type": "Lorentz_scalar",
+  "disconnected_extension": "scalar_or_discrete_pseudoscalar_character",
+  "stress_consequence_with_ultralocal_selector": "w_W=-1_and_zero_anisotropic_stress",
+  "failure_meaning": "a_noninvariant_orbit_or_broken_isotropy_requires_a_higher_dimensional_or_directional_rich_completion",
+  "nature_status": "occupation_and_invariant_line_premises_remain_open"
+}
