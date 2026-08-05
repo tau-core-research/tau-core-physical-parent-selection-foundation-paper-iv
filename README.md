@@ -29,6 +29,10 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
 - The `Gamma_MVP` selection target is frozen as eight deduplicated source
   blocks `S0`--`S7`; hold, detector error and timing endpoints are classified
   separately as operational validation data.
+- Complete variational-response identity on the physical body quotient forces
+  the certificate to equal the body-action derivative. A hidden response
+  covector gives an exact countermodel, so physical occupation of response
+  completeness remains open.
 
 ## Claim Boundary
 
@@ -51,3 +55,4 @@ Outputs:
 - `figures/fig_parent_selection_fork.pdf`
 - `data/derived/selection_ledger.json`
 - `data/derived/mvp_source_signature.json`
+- `data/derived/w2_variational_certificate_audit.json`

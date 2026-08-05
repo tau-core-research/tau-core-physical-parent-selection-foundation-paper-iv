@@ -13,6 +13,7 @@ def test_required_files_exist():
         "figures/fig_signature_spine.pdf",
         "data/derived/selection_ledger.json",
         "data/derived/mvp_source_signature.json",
+        "data/derived/w2_variational_certificate_audit.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -43,6 +44,15 @@ def test_deduplicated_signature():
     assert "tau_hold" in data["operational_not_parent_selection"]
     owned = [item for block in data["source_blocks"] for item in block["owns"]]
     assert len(owned) == len(set(owned))
+
+
+def test_w2_certificate_audit():
+    data = json.loads(
+        (ROOT / "data/derived/w2_variational_certificate_audit.json").read_text()
+    )
+    assert data["w2_verdict"] == "closed_conditionally_not_nature_selected"
+    assert "certificate_equals_body_action_derivative" in data["derived"]
+    assert "nature_selects_gamma_mvp" in data["not_derived"]
 
 
 def test_arxiv_archive_is_source_only():

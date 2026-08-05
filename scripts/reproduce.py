@@ -13,6 +13,7 @@ def run(*args):
 
 run(sys.executable, "scripts/build_figures.py")
 run(sys.executable, "scripts/check_selection_signature.py")
+run(sys.executable, "scripts/check_w2_variational_certificate.py")
 run("tectonic", "paperIV_submission_source/main.tex")
 run(sys.executable, "scripts/build_arxiv_source.py")
 run(sys.executable, "-m", "pytest", "-q")

@@ -36,7 +36,10 @@ independent gain.  A complete faithful source signature would subsequently
 select one completion class as the unique zero of a positive source defect.
 The manuscript is a preparation packet: the physical parent has not yet been
 shown to select the certificate semantics, the complete signature, or
-\(\GMVP\). Nature-level selection remains open.
+\(\GMVP\). We further derive the certificate semantics from complete
+variational-response identity on the physical quotient and prove, by a hidden
+covector countermodel, that response completeness is necessary.  Nature-level
+occupation of that identity remains open.
 \end{abstract}
 
 \tableofcontents
@@ -179,6 +182,79 @@ This proposition is a uniqueness theorem inside a typed physical-certificate
 completion.  It is not a derivation that the physical parent chooses that
 semantics.
 
+\section{Variational source of the certificate}
+
+The certificate role can be separated from the particular finite defect used
+above.  Let \(Q_\chi=P_\chi V/\mathcal N_\chi\) be the physical retained body
+quotient, assume that its pairing with \(Q_\chi^*\) is nondegenerate, and let
+\(\Phi_\chi:Q_\chi\to\mathbb R\) be the differentiable body action after the
+body-first solve has been frozen.
+
+\begin{definition}[Complete variational-response identity]
+A certificate \(y\in Q_\chi^*\) is response-complete at \(z\) when every
+admissible virtual body displacement \(\delta z\in Q_\chi\) satisfies
+\begin{equation}
+ \delta\Phi_\chi[z;\delta z]=\langle y,\delta z\rangle,
+ \label{eq:variational-response}
+\end{equation}
+in the inherited action unit, with no additional hidden response covector on
+the same quotient.
+\end{definition}
+
+This condition is independently required if \(y\) is claimed to be the
+complete once-counted work response of the stabilized body.  It does not refer
+to the desired Fenchel--Young defect or to terminal agreement.
+
+\begin{proposition}[Variational certificate theorem]
+Under body-first freeze, differentiability, quotient nondegeneracy and
+Eq.~\eqref{eq:variational-response},
+\begin{equation}
+ y=D\Phi_\chi(z).
+ \label{eq:certificate-gradient}
+\end{equation}
+Hence the Legendre-conjugate certificate semantics and the zero relation of
+Eq.~\eqref{eq:fy} follow from complete variational response rather than being
+chosen to obtain the joint quadratic action.
+\end{proposition}
+
+\begin{proof}
+By differentiability,
+\(\delta\Phi_\chi[z;\delta z]=\langle D\Phi_\chi(z),\delta z\rangle\).
+Subtracting Eq.~\eqref{eq:variational-response} gives
+\(\langle D\Phi_\chi(z)-y,\delta z\rangle=0\) for every physical
+\(\delta z\).  Nondegeneracy of the quotient pairing implies
+Eq.~\eqref{eq:certificate-gradient}.  Substitution into the
+Fenchel--Young equality condition gives the stated zero relation.
+\end{proof}
+
+\begin{proposition}[Hidden-response countermodel]
+If an unrecorded covector \(b\in Q_\chi^*\) is permitted, the total response
+law
+\begin{equation}
+ D\Phi_\chi(z)=y+b
+ \label{eq:hidden-response}
+\end{equation}
+is compatible with the same body action while \(y\ne D\Phi_\chi(z)\) whenever
+\(b\ne0\).  Body differentiability alone therefore does not identify the
+certificate.
+\end{proposition}
+
+\begin{proof}
+Choose any nonzero \(b\) and define \(y=D\Phi_\chi(z)-b\).  Equation
+\eqref{eq:hidden-response} then holds identically, but
+Eq.~\eqref{eq:certificate-gradient} fails.  The countermodel is removed only
+when the physical ledger proves that no terminal-visible response covector is
+omitted or counted through a bypass.
+\end{proof}
+
+This closes W2 conditionally at the source-role level: certificate semantics
+follows from an independently meaningful completeness identity.  It does not
+show that the physical base--seed parent occupies that identity.  Nor does it
+select the full finite defect away from its zero set: positive higher-order
+functions of the same Fenchel--Young defect can retain the certificate
+relation.  Their exclusion belongs to the once-counted composition audit in
+W3.
+
 \section{Complete source-signature selector}
 
 Let \(\mathfrak C\) be the finite set or moduli space of admissible completion
@@ -291,9 +367,11 @@ Statement & Status & Consequence\\
 Joint/split counterpair shares current separate reduct & proved & current laws do not select\\
 Seed occupation fixes support but not mixed Hessian & proved & seed alone is insufficient\\
 Certificate semantics selects the joint convex law & conditional theorem & unique minimal candidate\\
+Complete variational response fixes the certificate & conditional theorem & W2 source-role closure\\
+Hidden response covector defeats identification & proved & completeness is necessary\\
 Faithful complete signature has one zero class & conditional theorem & finite selection target\\
 Eight-block source target and generated-item ledger & frozen audit & prevents duplicate ownership\\
-Physical parent supplies certificate semantics & open & Paper IV blocker\\
+Physical parent occupies response completeness & open & nature-selection blocker\\
 Physical parent supplies and occupies full signature & open & nature-selection blocker\\
 Full signature equals the complete \(\GMVP\) packet & open & interface to Papers I--III\\
 \bottomrule
@@ -303,22 +381,23 @@ Full signature equals the complete \(\GMVP\) packet & open & interface to Papers
 \section{Finite work program}
 
 The preparation phase has four bounded tasks:
-\begin{enumerate}[label=(W\arabic*)]
- \item Freeze the exact completion signature required by \(\GMVP\), removing
+\begin{enumerate}[label={}]
+ \item[\textbf{W1}] \textbf{Closed as an audit:} freeze the exact completion
+ signature required by \(\GMVP\), removing
  duplicates already generated by one source relation.
- \item Determine whether physical certificate semantics follows from an
- independently required parent role, rather than being chosen to obtain the
- joint action.
- \item Construct the corresponding once-counted microscopic ledger and audit
+ \item[\textbf{W2}] \textbf{Closed conditionally:} complete variational
+ response on the nondegenerate physical quotient forces certificate semantics;
+ physical occupation of response completeness remains open.
+ \item[\textbf{W3}] Construct the corresponding once-counted microscopic ledger and audit
  all cross derivatives for double counting and quotient descent.
- \item Produce either a source theorem selecting the occupied class or a finite
+ \item[\textbf{W4}] Produce either a source theorem selecting the occupied class or a finite
  same-reduct countermodel proving that further nature-level selection is
  impossible without genuinely new typed source information.
 \end{enumerate}
 
-No fifth task may be added at the same level.  Failure of W2 or W3 demotes the
-current positive candidate and fixes the no-go result as the principal Paper
-IV conclusion.
+No fifth task may be added at the same level. Failure of W3, or failure in W4
+to source physical occupation of the W2 premise, demotes the current positive
+candidate and fixes the no-go result as the principal Paper-IV conclusion.
 
 \section{What is not proved}
 

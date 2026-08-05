@@ -8,7 +8,9 @@
     "complete_signature_unique_zero_class": "proved_conditional",
     "deduplicated_mvp_source_signature": "frozen_audit",
     "operational_validation_separated_from_parent_selection": "frozen_type_separation",
-    "physical_parent_selects_joint_semantics": "open",
+    "variational_response_completeness_implies_certificate_semantics": "proved_conditional",
+    "hidden_response_covector_defeats_certificate_identification": "proved",
+    "physical_parent_occupies_variational_response_completeness": "open",
     "physical_parent_selects_full_gamma_mvp": "open"
   },
   "forbidden_promotions": [

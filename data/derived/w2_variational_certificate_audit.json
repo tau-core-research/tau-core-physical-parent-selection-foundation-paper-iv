@@ -1,0 +1,28 @@
+{
+  "schema": "tau-core-paper-iv-w2-variational-certificate-audit-v0.1",
+  "status": "conditional_source_role_theorem",
+  "premises": [
+    "body_first_freeze",
+    "differentiable_body_action",
+    "nondegenerate_quotient_pairing",
+    "complete_variational_response_identity",
+    "no_hidden_response_covector"
+  ],
+  "derived": [
+    "certificate_equals_body_action_derivative",
+    "legendre_conjugate_certificate_semantics",
+    "fenchel_young_zero_relation"
+  ],
+  "not_derived": [
+    "physical_parent_occupies_variational_response_completeness",
+    "unique_finite_defect_away_from_the_zero_set",
+    "unique_parent_potential_family",
+    "nature_selects_gamma_mvp"
+  ],
+  "necessity_countermodel": {
+    "hidden_covector": "b_nonzero",
+    "total_response": "D_Phi_equals_y_plus_b",
+    "consequence": "y_need_not_equal_D_Phi"
+  },
+  "w2_verdict": "closed_conditionally_not_nature_selected"
+}
