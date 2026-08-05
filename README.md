@@ -52,6 +52,14 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   rich carrier is linearly distinguishable exactly when its complete-terminal
   Jacobian has a component orthogonal to the primary image; then a covector
   annihilating every primary response but not the rich response exists.
+- The first concrete specialization is the gravity--clock contrast
+  `Z_GT=t_B delta_G-g_B delta_T`. It vanishes identically for the common-source
+  primary response and detects the rich carrier exactly when
+  `Delta_GT=g_B t_W-t_B g_W` is nonzero.
+- A Ward-aligned control shows that gravity and clock terminals built from the
+  same energy-density contraction have zero determinant. The first viable
+  stress witness is therefore density versus spatial pressure (or anisotropic
+  stress), with novelty proportional to `rho_B rho_W (w_W-w_B)`.
 
 ## Claim Boundary
 
@@ -79,3 +87,5 @@ Outputs:
 - `data/derived/w4_candidate_selection_decision.json`
 - `data/derived/carrier_category_decision.json`
 - `data/derived/terminal_witness_handoff.json`
+- `data/derived/gravity_clock_witness.json`
+- `data/derived/ward_pressure_witness.json`

@@ -1,0 +1,13 @@
+{
+  "schema": "tau-core-paper-iv-ward-pressure-witness-v0.1",
+  "ward_aligned_pair": {
+    "gravity_terminal": "u_mu_u_nu_T_munu",
+    "clock_terminal": "same_energy_density_contraction",
+    "verdict": "Delta_GT_identically_zero"
+  },
+  "first_viable_pair": ["energy_density_rho", "spatial_pressure_p"],
+  "novelty_determinant": "Delta_rhop=rho_B*p_W-p_B*rho_W=rho_B*rho_W*(w_W-w_B)",
+  "witness": "Z_rhop=rho_B*delta_p-p_B*delta_rho",
+  "decision": "linear_novelty_requires_distinct_equation_of_state_or_anisotropic_stress",
+  "claim_boundary": "the carrier equation of state and occupation are not yet selected by Nature"
+}

@@ -589,6 +589,90 @@ stack, the two carrier categories are terminally indistinguishable at this
 order and no 4D data analysis can select between them without a nonlinear or
 nonlocal typed discriminator.
 
+\subsection{First concrete gravity--clock witness}
+
+The first physically motivated restriction uses the two terminals directly
+loaded by causal work. Let the primary body response \(x\) and the candidate
+rich-carrier response \(w\) produce source-normalized gravity/stress and
+clock/work variations
+\begin{equation}
+ \begin{pmatrix}\delta G\\ \delta T\end{pmatrix}
+ =
+ \begin{pmatrix}g_B&g_W\\ t_B&t_W\end{pmatrix}
+ \begin{pmatrix}x\\w\end{pmatrix}.
+ \label{eq:gravity-clock-jacobian}
+\end{equation}
+The coefficients are contractions of frozen terminal differentials with the
+two body carriers; they are not fitted terminal gains.
+
+\begin{corollary}[Gravity--clock contrast]
+The rich carrier is linearly novel in this terminal pair exactly when
+\begin{equation}
+ \Delta_{GT}=g_Bt_W-t_Bg_W\ne0.
+ \label{eq:gravity-clock-determinant}
+\end{equation}
+The source-normalized contrast
+\begin{equation}
+ Z_{GT}=t_B\,\delta G-g_B\,\delta T
+ \label{eq:gravity-clock-witness}
+\end{equation}
+annihilates every primary response and obeys
+\begin{equation}
+ Z_{GT}=-\Delta_{GT}w.
+ \label{eq:gravity-clock-rich-response}
+\end{equation}
+\end{corollary}
+
+\begin{proof}
+The determinant in Eq.~\eqref{eq:gravity-clock-determinant} is nonzero exactly
+when the two columns of Eq.~\eqref{eq:gravity-clock-jacobian} are independent.
+Direct substitution into Eq.~\eqref{eq:gravity-clock-witness} cancels the
+\(x\)-term and leaves Eq.~\eqref{eq:gravity-clock-rich-response}.
+\end{proof}
+
+Thus a gravity anomaly or a clock anomaly alone is not the Tau-specific
+candidate. The candidate is their predeclared common-source contrast. If
+\(\Delta_{GT}=0\), this pair cannot distinguish the rich body and the test
+must move to the complete terminal stack rather than tune either coefficient.
+If it is nonzero, standard relativistic redshift, stress modelling, source
+evolution and instrumental covariance must be controlled before a nonzero
+\(Z_{GT}\) can be interpreted as rejection of the primary forward model.
+
+\subsection{Ward-aligned no-go and the first viable stress witness}
+
+There is an immediate degeneracy. If the gravity terminal is only the same
+timelike energy-density contraction of stress that defines clock work, then
+both rows are Ward-aligned and \(\Delta_{GT}=0\) identically for every
+covariant sector. Redshift or potential information paired only with that
+same energy contraction cannot expose an independent carrier.
+
+The first viable stress refinement separates energy density and spatial
+pressure. Write the primary and rich columns as
+\((\rho_B,p_B)\) and \((\rho_W,p_W)\), with
+\(p_a=w_a\rho_a\) where an isotropic equation-of-state description applies.
+Then
+\begin{equation}
+ \Delta_{\rho p}
+ =\rho_Bp_W-p_B\rho_W
+ =\rho_B\rho_W(w_W-w_B),
+ \label{eq:rho-pressure-determinant}
+\end{equation}
+and the primary-annihilating contrast is
+\begin{equation}
+ Z_{\rho p}=\rho_B\,\delta p-p_B\,\delta\rho
+ =\Delta_{\rho p}w.
+ \label{eq:rho-pressure-witness}
+\end{equation}
+
+Thus this two-terminal test is informative exactly when the rich carrier has
+an equation of state different from the primary response, or more generally
+when it contributes independent anisotropic stress. Equal equations of state
+give an exact no-go for the pair. The previously derived constant
+carrier-free defect has \(w=-1\), but that conditional terminal type does not
+prove occupation and can still be degenerate with a primary volume term.
+The next source calculation must therefore derive the rich carrier's stress
+type before any cosmological data are inspected.
+
 \section{Proof ledger}
 
 \begin{center}\small
@@ -608,6 +692,13 @@ Frozen MVP carrier category selects the primary branch & proved &
 zero-novelty rows factor; positive-novelty rows enrich the theory\\
 Complete-terminal rich-body discriminator & proved conditionally &
 nonzero orthogonal witness is necessary and sufficient at linear order\\
+Gravity--clock witness & derived &
+\(Z_{GT}=0\) on the primary branch and is nonzero iff
+\(\Delta_{GT}w\ne0\)\\
+Ward-aligned gravity--clock pair & exact no-go & same energy contraction has
+zero determinant\\
+Density--pressure witness & derived conditionally & novel iff the carrier
+equation of state or anisotropic stress differs\\
 Primary enriched branch is internally complete & conditional theorem & working candidate\\
 Faithful complete signature has one zero class & conditional theorem & finite selection target\\
 Eight-block source target and generated-item ledger & frozen audit & prevents duplicate ownership\\

@@ -1,0 +1,15 @@
+{
+  "schema": "tau-core-paper-iv-gravity-clock-witness-v0.1",
+  "scope": "linearized_source_frozen_gravity_clock_pair",
+  "primary_column": ["g_B", "t_B"],
+  "rich_column": ["g_W", "t_W"],
+  "novelty_determinant": "Delta_GT=g_B*t_W-t_B*g_W",
+  "witness": "Z_GT=t_B*delta_G-g_B*delta_T",
+  "primary_response": "Z_GT=0",
+  "rich_response": "Z_GT=-Delta_GT*w",
+  "decision": {
+    "Delta_GT_nonzero": "rank_two_gravity_clock_signal",
+    "Delta_GT_zero": "no_linear_novelty_in_this_terminal_pair"
+  },
+  "claim_boundary": "candidate Tau branch discriminator after source freeze and standard/instrument controls, not evidence already observed"
+}
