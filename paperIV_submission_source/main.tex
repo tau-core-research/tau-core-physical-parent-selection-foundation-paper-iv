@@ -207,6 +207,80 @@ occupy one signature containing the body response, joint incidence, common
 unit, record occurrence and all distinguished roles needed by the claimed
 completion.  A list of compatible terminal marginals is not such a signature.
 
+\section{Deduplicated MVP source signature}
+
+The assumption list is not itself a source-independence ledger: several listed
+objects are outputs generated after a smaller source packet is supplied.  For
+parent selection we freeze eight typed ownership blocks,
+\begin{equation}
+ \Sigma_{\rm MVP}^{\rm src}=(S_0,S_1,S_2,S_3,S_4,S_5,S_6,S_7).
+ \label{eq:dedup-signature}
+\end{equation}
+
+\begin{figure}[t]
+ \centering
+ \includegraphics[width=.96\linewidth]{figures/fig_signature_spine.pdf}
+ \caption{The deduplicated selection signature. Arrows indicate dependency,
+ not temporal evolution. The graph records proof ownership and does not claim
+ physical occupation.}
+ \label{fig:signature-spine}
+\end{figure}
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{p{.09\linewidth}p{.29\linewidth}p{.50\linewidth}}
+\toprule
+Block & Physical role & Independent content retained for selection\\
+\midrule
+\(S_0\) & base--seed--body & seed, body action, stable body, quotient Hessian,
+body-first freeze and order decoder\\
+\(S_1\) & once-counted ledger & typed coframe, gauge, matter, clock and effect
+roles plus source minimality\\
+\(S_2\) & joint source & complete algebra/state, onto incidence and
+\(\Pi_{\rm phys}\)\\
+\(S_3\) & standard-limit class & Lorentzian/Palatini infrared class and
+Hadamard prescription\\
+\(S_4\) & quantum packet & positive states, complete effects, valuation and
+composite incidence\\
+\(S_5\) & record packet & occupied support, record edge and CP instrument\\
+\(S_6\) & finite metric law & source action ratio, amplitude connector and
+finite Trace--Gram identity\\
+\(S_7\) & action unit & common action character, its \(\hbar\) identification
+and self-adjoint transport unit\\
+\bottomrule
+\end{tabular}
+\caption{Frozen source blocks for the Paper-IV selection problem.}
+\label{tab:signature-blocks}
+\end{table}
+
+\begin{proposition}[Deduplication boundary]
+Within the declared MVP architecture, the stabilized body and Hessian are
+outputs of \(S_0\); the finite pointer algebra and common amplitude bundle are
+outputs of \(S_5\); and the minimal cyclic representation is an output of
+\(S_2\). Counting these again as independent selection data duplicates source
+ownership.
+\end{proposition}
+
+\begin{proof}
+Each item is fixed by the defining solve or representation theorem of its
+owning block: body stationarity for \(S_0\), instrument unfolding for \(S_5\),
+and typed cyclic representation for \(S_2\). A second independent copy adds a
+new primitive carrier or gain, contrary to the frozen minimum-source scope.
+\end{proof}
+
+The operational quantities \(\tau_{\rm hold}\), recovery tolerance, detector
+error, timing endpoint and decoherence controls are outside
+Eq.~\eqref{eq:dedup-signature}. They test whether an occupied completion is
+realized and measurable; they do not select the parent law. This removes a
+circular route in which a laboratory success criterion becomes part of the
+source definition it is meant to test.
+
+The eight blocks are the current finest typed ownership partition, not eight
+unconstrained fields. A deeper parent theorem may generate several blocks from
+one primitive relation, but it must exhibit that generating map and preserve
+all typed roles. Placing the blocks in one functional is not by itself a
+derivation of common ownership.
+
 \section{Proof ledger}
 
 \begin{center}\small
@@ -218,6 +292,7 @@ Joint/split counterpair shares current separate reduct & proved & current laws d
 Seed occupation fixes support but not mixed Hessian & proved & seed alone is insufficient\\
 Certificate semantics selects the joint convex law & conditional theorem & unique minimal candidate\\
 Faithful complete signature has one zero class & conditional theorem & finite selection target\\
+Eight-block source target and generated-item ledger & frozen audit & prevents duplicate ownership\\
 Physical parent supplies certificate semantics & open & Paper IV blocker\\
 Physical parent supplies and occupies full signature & open & nature-selection blocker\\
 Full signature equals the complete \(\GMVP\) packet & open & interface to Papers I--III\\

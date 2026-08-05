@@ -12,8 +12,8 @@ def run(*args):
 
 
 run(sys.executable, "scripts/build_figures.py")
+run(sys.executable, "scripts/check_selection_signature.py")
 run("tectonic", "paperIV_submission_source/main.tex")
 run(sys.executable, "scripts/build_arxiv_source.py")
 run(sys.executable, "-m", "pytest", "-q")
 print("FOUNDATION_PAPER_IV_PREPARATION_REPRODUCTION_COMPLETE")
-

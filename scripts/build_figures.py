@@ -47,14 +47,39 @@ def selection_fork(path):
     fig.tight_layout(); fig.savefig(path, bbox_inches="tight"); plt.close(fig)
 
 
+def signature_spine(path):
+    fig, ax = plt.subplots(figsize=(9.0, 4.2))
+    ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.axis("off")
+    nodes = [
+        (.03,.66,"S0\nbase + seed + body","#eaf4ea",.16),
+        (.27,.66,"S1\nonce-counted ledger","#eaf2ff",.16),
+        (.51,.66,"S2\njoint incidence","#f3efff",.16),
+        (.75,.66,"S3\nstandard-limit class","#fff1e1",.16),
+        (.15,.27,"S4\nstate/effect packet","#eef6d8",.16),
+        (.39,.27,"S5\nrecord occupation","#dff3e4",.16),
+        (.63,.27,"S6\nfinite metric law","#fde5d6",.16),
+        (.83,.27,"S7\naction unit","#f7dfdf",.14),
+    ]
+    for x, y, text_, color, width in nodes:
+        box(ax, x, y, width, .17, text_, color)
+    for a, b in [((.19,.745),(.27,.745)),((.43,.745),(.51,.745)),
+                 ((.67,.745),(.75,.745)),((.59,.66),(.23,.44)),
+                 ((.59,.66),(.47,.44)),((.55,.355),(.63,.355)),
+                 ((.79,.355),(.83,.355))]:
+        arrow(ax, a, b)
+    ax.text(.5,.95,"Deduplicated physical-selection signature",ha="center",fontsize=12,fontweight="bold")
+    ax.text(.5,.08,"Hold, detector error and timing endpoints are validation data, not parent-selection blocks.",ha="center",fontsize=8.1)
+    fig.tight_layout(); fig.savefig(path,bbox_inches="tight"); plt.close(fig)
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True); SRC.mkdir(parents=True, exist_ok=True)
-    path = OUT / "fig_parent_selection_fork.pdf"
-    selection_fork(path)
-    shutil.copy2(path, SRC / path.name)
-    print("WROTE", path)
+    paths = [OUT / "fig_parent_selection_fork.pdf", OUT / "fig_signature_spine.pdf"]
+    selection_fork(paths[0]); signature_spine(paths[1])
+    for path in paths:
+        shutil.copy2(path, SRC / path.name)
+    print("WROTE", *paths)
 
 
 if __name__ == "__main__":
     main()
-

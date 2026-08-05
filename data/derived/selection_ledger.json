@@ -6,6 +6,8 @@
     "seed_support_does_not_select_mixed_hessian": "proved",
     "minimal_joint_completion_under_certificate_semantics": "proved_conditional",
     "complete_signature_unique_zero_class": "proved_conditional",
+    "deduplicated_mvp_source_signature": "frozen_audit",
+    "operational_validation_separated_from_parent_selection": "frozen_type_separation",
     "physical_parent_selects_joint_semantics": "open",
     "physical_parent_selects_full_gamma_mvp": "open"
   },
@@ -16,4 +18,3 @@
     "paper_iv_is_empirical_validation"
   ]
 }
-

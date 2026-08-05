@@ -1,0 +1,24 @@
+{
+  "schema": "tau-core-mvp-deduplicated-source-signature-v0.1",
+  "claim_level": "frozen_selection_target_not_physical_occupation",
+  "source_blocks": [
+    {"id":"S0_BODY","role":"base_seed_body","owns":["universal_seed","body_action","stabilized_body","positive_quotient_hessian","body_first_freeze","seed_order_decoder"],"paper_i_labels":["A1","A1-SHR","A1-USC","A2","A3"],"depends_on":[]},
+    {"id":"S1_LEDGER","role":"once_counted_post_body_ledger","owns":["coframe_role","gauge_role","matter_role","clock_role","effect_role","source_minimality"],"paper_i_labels":["A4","A4-SRCMIN"],"depends_on":["S0_BODY"]},
+    {"id":"S2_JOINT","role":"joint_source_incidence_and_representation","owns":["complete_typed_source_algebra","faithful_joint_state","onto_joint_incidence","Pi_phys"],"paper_i_labels":[],"depends_on":["S1_LEDGER"]},
+    {"id":"S3_LIMIT","role":"geometric_and_field_theory_limit_class","owns":["Lorentzian_orientation","Palatini_Einstein_Hilbert_IR_class","Hadamard_renormalization"],"paper_i_labels":["A5","A7"],"depends_on":["S1_LEDGER"]},
+    {"id":"S4_QUANTUM","role":"state_effect_and_composite_quantum_packet","owns":["positive_normalized_states","complete_effect_family","additive_noncontextual_valuation","ROOT_composite_incidence"],"paper_i_labels":["A6"],"depends_on":["S1_LEDGER","S2_JOINT"]},
+    {"id":"S5_RECORD","role":"occupied_record_and_instrument_packet","owns":["nonzero_recovery_support","record_incidence","CP_record_instrument","finite_pointer_algebra","common_amplitude_bundle"],"paper_i_labels":["A8a-OCC"],"depends_on":["S2_JOINT","S4_QUANTUM"]},
+    {"id":"S6_METRIC","role":"finite_common_action_metric_law","owns":["source_action_ratio_xA","normalized_amplitude_connector","horizontal_HS_pullback","finite_Trace_Gram_identity"],"paper_i_labels":["A8b"],"depends_on":["S0_BODY","S5_RECORD"]},
+    {"id":"S7_UNIT","role":"common_action_unit_and_transport","owns":["A_star","A_star_equals_hbar","self_adjoint_transport_unit"],"paper_i_labels":["A9"],"depends_on":["S1_LEDGER","S6_METRIC"]}
+  ],
+  "derived_not_independent": [
+    {"item":"M_star","generated_by":"S0_BODY"},
+    {"item":"body_Hessian","generated_by":"S0_BODY"},
+    {"item":"finite_pointer_algebra","generated_by":"S5_RECORD"},
+    {"item":"common_Uhlmann_amplitude_bundle","generated_by":"S5_RECORD"},
+    {"item":"minimal_cyclic_representation","generated_by":"S2_JOINT"},
+    {"item":"record_copy_gain","generated_by":"S5_RECORD","value":"no_independent_gain"}
+  ],
+  "operational_not_parent_selection": ["tau_hold","eta_rec","detector_discrimination_error","timing_endpoint","laboratory_decoherence_control"],
+  "open_selection_core": ["physical_ownership_of_S2_JOINT","physical_occupation_of_S5_RECORD","physical_ownership_of_S6_METRIC","common_source_compatibility_of_S0_through_S7"]
+}

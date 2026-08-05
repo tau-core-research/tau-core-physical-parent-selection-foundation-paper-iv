@@ -26,6 +26,9 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   unique minimal completion and needs no independent gain.
 - Nature-level selection of that semantics and of the full common completion
   remains open.
+- The `Gamma_MVP` selection target is frozen as eight deduplicated source
+  blocks `S0`--`S7`; hold, detector error and timing endpoints are classified
+  separately as operational validation data.
 
 ## Claim Boundary
 
@@ -47,4 +50,4 @@ Outputs:
 - `arxiv_submission_source.zip`
 - `figures/fig_parent_selection_fork.pdf`
 - `data/derived/selection_ledger.json`
-
+- `data/derived/mvp_source_signature.json`
