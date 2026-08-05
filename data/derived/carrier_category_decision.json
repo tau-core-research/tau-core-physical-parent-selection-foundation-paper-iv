@@ -1,0 +1,13 @@
+{
+  "schema": "tau-core-paper-iv-carrier-category-decision-v0.1",
+  "scope": "finite_source_complete_mvp",
+  "descriptor_blocks": 8,
+  "dichotomy": {
+    "zero_novelty": "factors_through_frozen_descriptor_and_is_not_an_independent_source_role",
+    "positive_novelty": "strictly_enlarges_the_source_signature_and_defines_a_richer_completion"
+  },
+  "mvp_verdict": "primary_source_irredundant_completion_selected_within_frozen_mvp_category",
+  "broad_parent_verdict": "nature_level_minimal_versus_richer_carrier_selection_not_entailed",
+  "energy_sharing_status": "excluded_inside_mvp_but_admissible_as_rank_novel_enrichment",
+  "forbidden_promotion": "mvp_minimality_is_not_a_nature_level_no_extra_carrier_theorem"
+}

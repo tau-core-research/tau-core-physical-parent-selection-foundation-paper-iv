@@ -14,6 +14,8 @@
     "once_counted_structural_ledger": "proved",
     "microscopic_parent_fills_complete_ledger": "open",
     "current_reduct_selects_unique_physical_completion": "disproved",
+    "frozen_mvp_carrier_category_selects_primary_completion": "proved",
+    "nature_selects_minimum_over_rank_novel_carrier_categories": "open",
     "primary_enriched_completion_is_conditionally_complete": "proved_conditional",
     "nature_selects_primary_enriched_completion": "open",
     "physical_parent_selects_full_gamma_mvp": "open"

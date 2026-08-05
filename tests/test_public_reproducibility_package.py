@@ -16,6 +16,7 @@ def test_required_files_exist():
         "data/derived/w2_variational_certificate_audit.json",
         "data/derived/w3_once_counted_ledger_import.json",
         "data/derived/w4_candidate_selection_decision.json",
+        "data/derived/carrier_category_decision.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -30,6 +31,8 @@ def test_claim_ledger_boundaries():
         == "frozen_type_separation"
     )
     assert ledger["results"]["physical_parent_selects_full_gamma_mvp"] == "open"
+    assert ledger["results"]["frozen_mvp_carrier_category_selects_primary_completion"] == "proved"
+    assert ledger["results"]["nature_selects_minimum_over_rank_novel_carrier_categories"] == "open"
 
 
 def test_manuscript_markers():
@@ -38,6 +41,7 @@ def test_manuscript_markers():
     assert "Nature-level selection remains open" in tex
     assert "fig_parent_selection_fork.pdf" in tex
     assert "fig_signature_spine.pdf" in tex
+    assert "Carrier-category dichotomy" in tex
 
 
 def test_deduplicated_signature():
@@ -74,6 +78,17 @@ def test_w4_candidate_decision():
     assert data["w4_verdict"] == "closed_as_current_reduct_no_go"
     assert data["selected_working_candidate"] == "C_PRIMARY"
     assert len(data["same_reduct_pair"]) == 2
+
+
+def test_carrier_category_decision():
+    data = json.loads(
+        (ROOT / "data/derived/carrier_category_decision.json").read_text()
+    )
+    assert data["descriptor_blocks"] == 8
+    assert data["mvp_verdict"].startswith("primary_source_irredundant")
+    assert data["energy_sharing_status"] == (
+        "excluded_inside_mvp_but_admissible_as_rank_novel_enrichment"
+    )
 
 
 def test_arxiv_archive_is_source_only():

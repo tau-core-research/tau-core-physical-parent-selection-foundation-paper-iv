@@ -43,6 +43,11 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   same current narrow reduct. The primary branch is conditionally complete and
   remains the adopted working candidate, but current source data do not select
   it uniquely.
+- The carrier-category dichotomy closes the finite MVP decision: a candidate
+  causal-work row either factors through the frozen eight-block descriptor and
+  is source-redundant, or increases stacked rank and defines a genuinely richer
+  theory. Thus the primary branch is selected inside the frozen MVP category;
+  Nature-level selection of that minimum category remains open.
 
 ## Claim Boundary
 
@@ -68,3 +73,4 @@ Outputs:
 - `data/derived/w2_variational_certificate_audit.json`
 - `data/derived/w3_once_counted_ledger_import.json`
 - `data/derived/w4_candidate_selection_decision.json`
+- `data/derived/carrier_category_decision.json`
