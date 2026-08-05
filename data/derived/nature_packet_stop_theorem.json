@@ -1,0 +1,16 @@
+{
+  "construction": "X_extended=X_direct_sum_H; F_extended(x,h)=F(x); A_extended=A(x)+q*h^2/2-j*h",
+  "stationary_hidden_value": "h_star=j/q",
+  "declared_terminal_change": 0,
+  "dichotomy": {
+    "true_null": "all_physical_actions_and_terminals_are_basic_on_H_so_H_is_quotiented",
+    "incomplete_descriptor": "the_source_action_or_an_undeclared_terminal_distinguishes_H"
+  },
+  "proved_stop": "finite_declared_terminal_agreement_cannot_establish_nature_level_source_exhaustivity",
+  "required_reopening": [
+    "independent_parent_source_exhaustivity_principle",
+    "new_terminal_that_detects_the_extension",
+    "physical_equivalence_rule_quotienting_the_extension"
+  ],
+  "paper_iv_terminal_status": "primary_selected_inside_frozen_MVP_nature_packet_exhaustivity_open"
+}

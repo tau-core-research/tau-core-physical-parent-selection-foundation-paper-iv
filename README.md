@@ -86,6 +86,10 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
 - Auditing the full frozen `S0`--`S7` packet finds no `W`-specific principal
   symbol, branch/topological label, or terminal separator. Hence every local
   finite-order `W` is absorbed, redundant, or belongs to a richer theory.
+- A direct-sum hidden-source construction proves a final stop theorem: no
+  finite declared terminal stack can establish Nature-level source
+  exhaustivity. The extension is either a quotient null or evidence that the
+  descriptor is incomplete.
 
 ## Claim Boundary
 
@@ -122,3 +126,4 @@ Outputs:
 - `data/derived/algebraic_exchange_absorption.json`
 - `data/derived/nonabsorbed_rich_trichotomy.json`
 - `data/derived/pbd_source_signature_audit.json`
+- `data/derived/nature_packet_stop_theorem.json`

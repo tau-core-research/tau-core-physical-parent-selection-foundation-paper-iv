@@ -27,6 +27,7 @@ def test_required_files_exist():
         "data/derived/algebraic_exchange_absorption.json",
         "data/derived/nonabsorbed_rich_trichotomy.json",
         "data/derived/pbd_source_signature_audit.json",
+        "data/derived/nature_packet_stop_theorem.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -62,6 +63,7 @@ def test_manuscript_markers():
     assert "Algebraic exchange absorption" in tex
     assert "Nonabsorbed rich trichotomy" in tex
     assert "P/B/D source-signature audit" in tex
+    assert "Nature-packet stop theorem" in tex
 
 
 def test_deduplicated_signature():
@@ -193,6 +195,13 @@ def test_pbd_source_signature_audit():
     assert data["frozen_blocks"] == 8
     assert data["owned_items"] == 35
     assert all(value.startswith("absent") for value in data["audit"].values())
+
+
+def test_nature_packet_stop_theorem():
+    data = json.loads((ROOT / "data/derived/nature_packet_stop_theorem.json").read_text())
+    assert data["declared_terminal_change"] == 0
+    assert set(data["dichotomy"]) == {"true_null", "incomplete_descriptor"}
+    assert len(data["required_reopening"]) == 3
 
 
 def test_arxiv_archive_is_source_only():
