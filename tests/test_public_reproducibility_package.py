@@ -26,6 +26,7 @@ def test_required_files_exist():
         "data/derived/vacuum_branch_identifiability.json",
         "data/derived/algebraic_exchange_absorption.json",
         "data/derived/nonabsorbed_rich_trichotomy.json",
+        "data/derived/pbd_source_signature_audit.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -60,6 +61,7 @@ def test_manuscript_markers():
     assert "Vacuum-branch identifiability no-go" in tex
     assert "Algebraic exchange absorption" in tex
     assert "Nonabsorbed rich trichotomy" in tex
+    assert "P/B/D source-signature audit" in tex
 
 
 def test_deduplicated_signature():
@@ -184,6 +186,13 @@ def test_nonabsorbed_rich_trichotomy():
     )
     assert set(data["nonabsorbed_cases"]) == {"P", "B", "D"}
     assert data["all_cases_enlarge"].startswith("complete_body")
+
+
+def test_pbd_source_signature_audit():
+    data = json.loads((ROOT / "data/derived/pbd_source_signature_audit.json").read_text())
+    assert data["frozen_blocks"] == 8
+    assert data["owned_items"] == 35
+    assert all(value.startswith("absent") for value in data["audit"].values())
 
 
 def test_arxiv_archive_is_source_only():

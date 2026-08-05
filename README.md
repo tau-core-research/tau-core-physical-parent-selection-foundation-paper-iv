@@ -83,6 +83,9 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   finite trichotomy: propagating carrier, multiple stable branches/topological
   label, or a terminal witness that proves descriptor incompleteness. Each
   enlarges the complete body or its source signature.
+- Auditing the full frozen `S0`--`S7` packet finds no `W`-specific principal
+  symbol, branch/topological label, or terminal separator. Hence every local
+  finite-order `W` is absorbed, redundant, or belongs to a richer theory.
 
 ## Claim Boundary
 
@@ -118,3 +121,4 @@ Outputs:
 - `data/derived/vacuum_branch_identifiability.json`
 - `data/derived/algebraic_exchange_absorption.json`
 - `data/derived/nonabsorbed_rich_trichotomy.json`
+- `data/derived/pbd_source_signature_audit.json`
