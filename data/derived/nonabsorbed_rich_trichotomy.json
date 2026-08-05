@@ -1,0 +1,13 @@
+{
+  "scope": "local_finite_order_complete_body_and_terminal_factorization",
+  "absorbed_case": "unique_ultralocal_stationary_W_of_M",
+  "nonabsorbed_cases": {
+    "P": "nonzero_derivative_principal_symbol_makes_W_propagating",
+    "B": "multiple_stable_stationary_roots_require_a_branch_or_topological_label",
+    "D": "a_terminal_distinguishing_W_at_fixed_descriptor_proves_descriptor_incompleteness"
+  },
+  "double_well_control": "V=(W^2-v^2)^2/4 has stable roots W=plus_or_minus_v",
+  "all_cases_enlarge": "complete_body_or_source_terminal_signature",
+  "no_fourth_case_claim_boundary": "only_within_declared_local_finite_order_scope",
+  "nature_status": "open_which_if_any_nonabsorbed_case_is_occupied"
+}

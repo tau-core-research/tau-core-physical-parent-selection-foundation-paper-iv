@@ -25,6 +25,7 @@ def test_required_files_exist():
         "data/derived/rank_one_lorentz_typing.json",
         "data/derived/vacuum_branch_identifiability.json",
         "data/derived/algebraic_exchange_absorption.json",
+        "data/derived/nonabsorbed_rich_trichotomy.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -58,6 +59,7 @@ def test_manuscript_markers():
     assert "Rank-one Lorentz typing" in tex
     assert "Vacuum-branch identifiability no-go" in tex
     assert "Algebraic exchange absorption" in tex
+    assert "Nonabsorbed rich trichotomy" in tex
 
 
 def test_deduplicated_signature():
@@ -174,6 +176,14 @@ def test_algebraic_exchange_absorption():
     assert data["effective_body_hessian"] == "a-b^2/q"
     assert data["terminal_status_without_independent_W_access"] == "absorbed_into_complete_body"
     assert len(data["independent_rich_terminal_requires"]) == 3
+
+
+def test_nonabsorbed_rich_trichotomy():
+    data = json.loads(
+        (ROOT / "data/derived/nonabsorbed_rich_trichotomy.json").read_text()
+    )
+    assert set(data["nonabsorbed_cases"]) == {"P", "B", "D"}
+    assert data["all_cases_enlarge"].startswith("complete_body")
 
 
 def test_arxiv_archive_is_source_only():

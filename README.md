@@ -79,6 +79,10 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   complete-body potential through a Schur complement but is not an independent
   terminal unless `W` has separately resolved access, propagation, or branch
   information.
+- In the local finite-order scope, every nonabsorbed rich sector falls into a
+  finite trichotomy: propagating carrier, multiple stable branches/topological
+  label, or a terminal witness that proves descriptor incompleteness. Each
+  enlarges the complete body or its source signature.
 
 ## Claim Boundary
 
@@ -113,3 +117,4 @@ Outputs:
 - `data/derived/rank_one_lorentz_typing.json`
 - `data/derived/vacuum_branch_identifiability.json`
 - `data/derived/algebraic_exchange_absorption.json`
+- `data/derived/nonabsorbed_rich_trichotomy.json`
