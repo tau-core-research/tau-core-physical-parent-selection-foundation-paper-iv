@@ -1,0 +1,19 @@
+{
+  "schema": "tau-core-foundation-paper-iv-selection-ledger-v0.1",
+  "status": "preparation",
+  "results": {
+    "joint_split_countermodel": "proved",
+    "seed_support_does_not_select_mixed_hessian": "proved",
+    "minimal_joint_completion_under_certificate_semantics": "proved_conditional",
+    "complete_signature_unique_zero_class": "proved_conditional",
+    "physical_parent_selects_joint_semantics": "open",
+    "physical_parent_selects_full_gamma_mvp": "open"
+  },
+  "forbidden_promotions": [
+    "terminal_success_implies_parent_selection",
+    "seed_occupation_implies_mixed_hessian",
+    "strict_convexity_selects_the_functional_family",
+    "paper_iv_is_empirical_validation"
+  ]
+}
+
