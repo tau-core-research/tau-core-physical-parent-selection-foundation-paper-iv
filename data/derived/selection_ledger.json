@@ -13,6 +13,9 @@
     "physical_parent_occupies_variational_response_completeness": "open",
     "once_counted_structural_ledger": "proved",
     "microscopic_parent_fills_complete_ledger": "open",
+    "current_reduct_selects_unique_physical_completion": "disproved",
+    "primary_enriched_completion_is_conditionally_complete": "proved_conditional",
+    "nature_selects_primary_enriched_completion": "open",
     "physical_parent_selects_full_gamma_mvp": "open"
   },
   "forbidden_promotions": [

@@ -38,6 +38,11 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   ownership and cross-block controls pass 106 combined checks. The structural
   ledger is closed; its filling by one physical microscopic parent remains
   open.
+- The finite W4 comparison is negative at nature-selection level: the primary
+  enriched completion and an independent energy-sharing completion retain the
+  same current narrow reduct. The primary branch is conditionally complete and
+  remains the adopted working candidate, but current source data do not select
+  it uniquely.
 
 ## Claim Boundary
 
@@ -62,3 +67,4 @@ Outputs:
 - `data/derived/mvp_source_signature.json`
 - `data/derived/w2_variational_certificate_audit.json`
 - `data/derived/w3_once_counted_ledger_import.json`
+- `data/derived/w4_candidate_selection_decision.json`

@@ -1,0 +1,33 @@
+{
+  "schema": "tau-core-paper-iv-w4-candidate-selection-decision-v0.1",
+  "status": "current_reduct_nonselection_proved",
+  "candidates": [
+    {
+      "id": "C_NARROW",
+      "role": "unchanged_narrow_body_parent",
+      "signature_coverage": "incomplete",
+      "nature_selected": false
+    },
+    {
+      "id": "C_PRIMARY",
+      "role": "source_irredundant_enriched_joint_completion",
+      "signature_coverage": "conditionally_complete_on_regular_branch",
+      "nature_selected": false
+    },
+    {
+      "id": "C_ENERGY_SHARE",
+      "role": "independent_base_causal_work_countercompletion",
+      "signature_coverage": "alternative_ownership",
+      "nature_selected": false
+    }
+  ],
+  "same_reduct_pair": ["C_PRIMARY", "C_ENERGY_SHARE"],
+  "selected_working_candidate": "C_PRIMARY",
+  "selection_status": "adopted_constitutive_candidate_not_nature_derivation",
+  "new_typed_information_required": [
+    "physical_occupation_of_complete_variational_response",
+    "physical_common_source_identity_for_all_eight_blocks",
+    "source_owned_rule_excluding_independent_energy_sharing_carrier"
+  ],
+  "w4_verdict": "closed_as_current_reduct_no_go"
+}

@@ -15,6 +15,7 @@ def test_required_files_exist():
         "data/derived/mvp_source_signature.json",
         "data/derived/w2_variational_certificate_audit.json",
         "data/derived/w3_once_counted_ledger_import.json",
+        "data/derived/w4_candidate_selection_decision.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -64,6 +65,15 @@ def test_w3_ledger_import():
     assert data["single_remaining_physical_gap"] == (
         "one_base_seed_parent_fills_and_occupies_the_complete_ledger"
     )
+
+
+def test_w4_candidate_decision():
+    data = json.loads(
+        (ROOT / "data/derived/w4_candidate_selection_decision.json").read_text()
+    )
+    assert data["w4_verdict"] == "closed_as_current_reduct_no_go"
+    assert data["selected_working_candidate"] == "C_PRIMARY"
+    assert len(data["same_reduct_pair"]) == 2
 
 
 def test_arxiv_archive_is_source_only():
