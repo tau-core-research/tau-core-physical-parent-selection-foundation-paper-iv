@@ -1,7 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage[a4paper,margin=1in]{geometry}
 \usepackage{amsmath,amssymb,amsthm,mathtools}
-\usepackage{graphicx,booktabs,array,enumitem,hyperref,microtype}
+\usepackage{graphicx,booktabs,array,longtable,enumitem,hyperref,microtype}
 \setlength{\emergencystretch}{2em}
 \hypersetup{colorlinks=true,linkcolor=black,citecolor=blue!50!black,urlcolor=blue!50!black}
 \newtheorem{definition}{Definition}
@@ -786,13 +786,48 @@ richer derivative/directional carrier. Such information must be frozen from
 the parent source law before terminal comparison; background fit quality may
 not be used to choose it.
 
+\subsection{Algebraic exchange absorption}
+
+Source-correlated body--rich exchange does not by itself evade the preceding
+no-go when \(W\) remains ultralocal and algebraic. Let the joint potential be
+\begin{equation}
+ V(M,W)=\frac12 aM^2+bMW+\frac12 qW^2,\qquad q>0.
+ \label{eq:algebraic-exchange-potential}
+\end{equation}
+The exact stationary equation gives \(W_*=-(b/q)M\). Substitution, rather than
+deletion, yields
+\begin{equation}
+ V_{\rm eff}(M)=\frac12\left(a-\frac{b^2}{q}\right)M^2,
+ \qquad
+ H_{\rm eff}=a-\frac{b^2}{q}.
+ \label{eq:algebraic-exchange-schur}
+\end{equation}
+The general Hessian is the Schur complement
+\begin{equation}
+ H_{\rm eff}=V_{MM}-V_{MW}V_{WW}^{-1}V_{WM}.
+ \label{eq:general-exchange-schur}
+\end{equation}
+
+Thus an algebraic exchange carrier changes the complete body's potential and
+stiffness but supplies no independent terminal after exact elimination, unless
+an observer terminal distinguishes \(W\) at fixed complete-body descriptor.
+Independent novelty requires a propagating/derivative carrier, separately
+resolved stationary branches or a topological label, or a proved terminal
+access to \(W\). This is precisely the body-first interpretation of the rich
+completion, not a return to constructing the body from a downstream channel.
+
 \section{Proof ledger}
 
-\begin{center}\small
-\begin{tabular}{p{.48\linewidth}p{.18\linewidth}p{.24\linewidth}}
+{\small
+\begin{longtable}{p{.46\linewidth}p{.17\linewidth}p{.25\linewidth}}
 \toprule
 Statement & Status & Consequence\\
 \midrule
+\endfirsthead
+\toprule
+Statement & Status & Consequence\\
+\midrule
+\endhead
 Joint/split counterpair shares current separate reduct & proved & current laws do not select\\
 Seed occupation fixes support but not mixed Hessian & proved & seed alone is insufficient\\
 Certificate semantics selects the joint convex law & conditional theorem & unique minimal candidate\\
@@ -822,6 +857,8 @@ Rank-one Lorentz typing & proved conditionally & an invariant occupied line is
 scalar under the connected Lorentz group\\
 Separately conserved scalar rich background & exact no-go & constant and
 background-degenerate with \(\Lambda\)\\
+Ultralocal algebraic exchange & exact reduction & absorbed into the complete
+body through the Schur-complement Hessian\\
 Primary enriched branch is internally complete & conditional theorem & working candidate\\
 Faithful complete signature has one zero class & conditional theorem & finite selection target\\
 Eight-block source target and generated-item ledger & frozen audit & prevents duplicate ownership\\
@@ -829,8 +866,8 @@ Physical parent occupies response completeness & open & nature-selection blocker
 Physical parent supplies and occupies full signature & open & nature-selection blocker\\
 Full signature equals the complete \(\GMVP\) packet & open & interface to Papers I--III\\
 \bottomrule
-\end{tabular}
-\end{center}
+\end{longtable}
+}
 
 \section{Finite work program}
 

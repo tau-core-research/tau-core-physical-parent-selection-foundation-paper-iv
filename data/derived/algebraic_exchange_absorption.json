@@ -1,0 +1,14 @@
+{
+  "joint_potential": "V(M,W)=1/2*a*M^2+b*M*W+1/2*q*W^2",
+  "stationary_auxiliary": "W_star=-(b/q)*M",
+  "effective_body_potential": "V_eff(M)=1/2*(a-b^2/q)*M^2",
+  "effective_body_hessian": "a-b^2/q",
+  "general_rule": "H_eff=V_MM-V_MW*V_WW^{-1}*V_WM",
+  "terminal_status_without_independent_W_access": "absorbed_into_complete_body",
+  "independent_rich_terminal_requires": [
+    "derivative_or_propagating_W",
+    "multiple_resolved_stationary_branches_or_topological_label",
+    "observer_terminal_that_distinguishes_W_at_fixed_complete_body_descriptor"
+  ],
+  "verdict": "ultralocal_algebraic_body_rich_exchange_is_not_an_independent_terminal_after_exact_elimination"
+}

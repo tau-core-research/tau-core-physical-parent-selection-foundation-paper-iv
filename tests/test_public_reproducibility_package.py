@@ -24,6 +24,7 @@ def test_required_files_exist():
         "data/derived/ultralocal_metric_lift_selector.json",
         "data/derived/rank_one_lorentz_typing.json",
         "data/derived/vacuum_branch_identifiability.json",
+        "data/derived/algebraic_exchange_absorption.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -56,6 +57,7 @@ def test_manuscript_markers():
     assert "Ultralocal scalar lift selector" in tex
     assert "Rank-one Lorentz typing" in tex
     assert "Vacuum-branch identifiability no-go" in tex
+    assert "Algebraic exchange absorption" in tex
 
 
 def test_deduplicated_signature():
@@ -163,6 +165,15 @@ def test_vacuum_branch_identifiability():
     assert data["background_origin_identifiable"] is False
     assert data["flrw_equivalent"].endswith("dot_V=0")
     assert len(data["tau_specific_escape_routes"]) == 3
+
+
+def test_algebraic_exchange_absorption():
+    data = json.loads(
+        (ROOT / "data/derived/algebraic_exchange_absorption.json").read_text()
+    )
+    assert data["effective_body_hessian"] == "a-b^2/q"
+    assert data["terminal_status_without_independent_W_access"] == "absorbed_into_complete_body"
+    assert len(data["independent_rich_terminal_requires"]) == 3
 
 
 def test_arxiv_archive_is_source_only():

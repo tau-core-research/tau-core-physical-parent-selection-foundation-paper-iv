@@ -75,6 +75,10 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   potential value to be constant. Its FLRW background is then exactly
   degenerate with a cosmological constant; a Tau-specific signal requires
   source-frozen exchange, activation, or richer carrier structure.
+- Purely algebraic body--rich exchange is exactly eliminable. It changes the
+  complete-body potential through a Schur complement but is not an independent
+  terminal unless `W` has separately resolved access, propagation, or branch
+  information.
 
 ## Claim Boundary
 
@@ -108,3 +112,4 @@ Outputs:
 - `data/derived/ultralocal_metric_lift_selector.json`
 - `data/derived/rank_one_lorentz_typing.json`
 - `data/derived/vacuum_branch_identifiability.json`
+- `data/derived/algebraic_exchange_absorption.json`
