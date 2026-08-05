@@ -1,0 +1,11 @@
+{
+  "stress": "T_mn=-V*g_mn",
+  "covariant_divergence": "nabla_m T^m_n=-partial_n V",
+  "separate_conservation_implies": "partial_n V=0",
+  "flrw_equivalent": "dot_rho+3H(rho+p)=dot_V=0",
+  "background_terminal": "Lambda_eff=8*pi*G*V",
+  "background_origin_identifiable": false,
+  "independent_anisotropic_stress": false,
+  "tau_specific_escape_routes": ["body_rich_sector_exchange", "source_correlated_activation", "richer_derivative_or_directional_carrier"],
+  "verdict": "constant_separately_conserved_ultralocal_rich_branch_is_background_degenerate_with_Lambda"
+}

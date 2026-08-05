@@ -23,6 +23,7 @@ def test_required_files_exist():
         "data/derived/stress_type_branch_decision.json",
         "data/derived/ultralocal_metric_lift_selector.json",
         "data/derived/rank_one_lorentz_typing.json",
+        "data/derived/vacuum_branch_identifiability.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -54,6 +55,7 @@ def test_manuscript_markers():
     assert "Stress-type nonselection" in tex
     assert "Ultralocal scalar lift selector" in tex
     assert "Rank-one Lorentz typing" in tex
+    assert "Vacuum-branch identifiability no-go" in tex
 
 
 def test_deduplicated_signature():
@@ -152,6 +154,15 @@ def test_rank_one_lorentz_typing():
     )
     assert data["connected_group_type"] == "Lorentz_scalar"
     assert data["stress_consequence_with_ultralocal_selector"].startswith("w_W=-1")
+
+
+def test_vacuum_branch_identifiability():
+    data = json.loads(
+        (ROOT / "data/derived/vacuum_branch_identifiability.json").read_text()
+    )
+    assert data["background_origin_identifiable"] is False
+    assert data["flrw_equivalent"].endswith("dot_V=0")
+    assert len(data["tau_specific_escape_routes"]) == 3
 
 
 def test_arxiv_archive_is_source_only():

@@ -71,6 +71,10 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
 - On a homogeneous-isotropic occupied branch, a Lorentz-invariant rank-one
   novelty line is necessarily scalar under the connected Lorentz group. A
   nontrivial orbit or preferred direction instead signals a richer carrier.
+- If this scalar stress is separately conserved, covariance forces its
+  potential value to be constant. Its FLRW background is then exactly
+  degenerate with a cosmological constant; a Tau-specific signal requires
+  source-frozen exchange, activation, or richer carrier structure.
 
 ## Claim Boundary
 
@@ -103,3 +107,4 @@ Outputs:
 - `data/derived/stress_type_branch_decision.json`
 - `data/derived/ultralocal_metric_lift_selector.json`
 - `data/derived/rank_one_lorentz_typing.json`
+- `data/derived/vacuum_branch_identifiability.json`
