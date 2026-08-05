@@ -21,6 +21,7 @@ def test_required_files_exist():
         "data/derived/gravity_clock_witness.json",
         "data/derived/ward_pressure_witness.json",
         "data/derived/stress_type_branch_decision.json",
+        "data/derived/ultralocal_metric_lift_selector.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -50,6 +51,7 @@ def test_manuscript_markers():
     assert "Gravity--clock contrast" in tex
     assert "Ward-aligned no-go" in tex
     assert "Stress-type nonselection" in tex
+    assert "Ultralocal scalar lift selector" in tex
 
 
 def test_deduplicated_signature():
@@ -131,6 +133,15 @@ def test_stress_type_branch_decision():
     assert data["covariant_controls"]["minimal_volume_lift"]["w_W"] == -1
     assert data["covariant_controls"]["conserved_flow_lift"]["w_W"] == 0
     assert data["verdict"].startswith("stress_type_not_selected")
+
+
+def test_ultralocal_metric_lift_selector():
+    data = json.loads(
+        (ROOT / "data/derived/ultralocal_metric_lift_selector.json").read_text()
+    )
+    assert data["equation_of_state_on_constant_occupied_branch"] == "w_W=-1"
+    assert data["anisotropic_stress"] == 0
+    assert len(data["escape_routes"]) == 4
 
 
 def test_arxiv_archive_is_source_only():

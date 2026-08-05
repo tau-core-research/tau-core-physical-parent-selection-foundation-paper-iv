@@ -1,0 +1,10 @@
+{
+  "premises": ["W_is_a_single_scalar_source_role", "local_diffeomorphism_covariance", "no_W_derivatives", "no_curvature_or_metric_derivatives", "no_independent_vector_form_tensor_or_coframe_incidence", "same_frozen_fiber_potential"],
+  "unique_metric_dependent_density": "sqrt_abs_g*V(W)",
+  "derived_stress": "T_mn=-V(W)*g_mn",
+  "equation_of_state_on_constant_occupied_branch": "w_W=-1",
+  "anisotropic_stress": 0,
+  "escape_routes": ["derivative_or_kinetic_jet", "conserved_flow_or_closed_form", "directional_tensor_incidence", "nonlocal_metric_dependence"],
+  "mvp_status": "unique_inside_ultralocal_scalar_metric_lift_class",
+  "nature_status": "open_whether_the_rich_carrier_is_ultralocal_scalar_and_occupied"
+}

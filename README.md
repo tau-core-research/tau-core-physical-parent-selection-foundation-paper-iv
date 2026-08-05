@@ -65,6 +65,9 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   (`w=0`) lifts provide an exact nonselection control. Conditionally pairing
   the primary dust limit with the minimal rich volume lift gives
   `Delta_rhop=-rho_B rho_W`; this is not a claim that Nature occupies it.
+- Within the frozen ultralocal scalar carrier class, covariance uniquely
+  selects the volume lift, hence `w_W=-1` and zero anisotropic stress. Kinetic,
+  flow, directional and nonlocal alternatives are richer source types.
 
 ## Claim Boundary
 
@@ -95,3 +98,4 @@ Outputs:
 - `data/derived/gravity_clock_witness.json`
 - `data/derived/ward_pressure_witness.json`
 - `data/derived/stress_type_branch_decision.json`
+- `data/derived/ultralocal_metric_lift_selector.json`
