@@ -20,6 +20,7 @@ def test_required_files_exist():
         "data/derived/terminal_witness_handoff.json",
         "data/derived/gravity_clock_witness.json",
         "data/derived/ward_pressure_witness.json",
+        "data/derived/stress_type_branch_decision.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -48,6 +49,7 @@ def test_manuscript_markers():
     assert "Complete-terminal witness" in tex
     assert "Gravity--clock contrast" in tex
     assert "Ward-aligned no-go" in tex
+    assert "Stress-type nonselection" in tex
 
 
 def test_deduplicated_signature():
@@ -120,6 +122,15 @@ def test_ward_pressure_witness():
     )
     assert data["ward_aligned_pair"]["verdict"] == "Delta_GT_identically_zero"
     assert data["first_viable_pair"] == ["energy_density_rho", "spatial_pressure_p"]
+
+
+def test_stress_type_branch_decision():
+    data = json.loads(
+        (ROOT / "data/derived/stress_type_branch_decision.json").read_text()
+    )
+    assert data["covariant_controls"]["minimal_volume_lift"]["w_W"] == -1
+    assert data["covariant_controls"]["conserved_flow_lift"]["w_W"] == 0
+    assert data["verdict"].startswith("stress_type_not_selected")
 
 
 def test_arxiv_archive_is_source_only():

@@ -1,0 +1,18 @@
+{
+  "algebraic_source_law": "A_W=1/2*q*W^2-J*W, q>0",
+  "fixed_by_source_law": ["W_star=J/q", "fiber_Hessian=q", "positive_stationary_defect"],
+  "not_fixed_without_metric_lift": ["rho_W", "p_W", "w_W", "anisotropic_stress"],
+  "covariant_controls": {
+    "minimal_volume_lift": {"w_W": -1, "anisotropic_stress": 0},
+    "conserved_flow_lift": {"w_W": 0, "anisotropic_stress": 0},
+    "oriented_tensor_lift": {"w_W": "model_dependent", "anisotropic_stress": "may_be_nonzero", "requires_extra_typed_orientation": true}
+  },
+  "conditional_mvp_pair": {
+    "primary_constant_amplitude_flow": "w_B=0",
+    "rich_minimal_volume_lift": "w_W=-1",
+    "Delta_rhop": "-rho_B*rho_W",
+    "occupation_required": ["rho_B_nonzero", "rho_W_nonzero"]
+  },
+  "verdict": "stress_type_not_selected_by_current_algebraic_energy_sharing_source",
+  "claim_boundary": "The dust-versus-volume contrast is a conditional covariant completion test, not a Nature-level Tau prediction."
+}

@@ -60,6 +60,11 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   same energy-density contraction have zero determinant. The first viable
   stress witness is therefore density versus spatial pressure (or anisotropic
   stress), with novelty proportional to `rho_B rho_W (w_W-w_B)`.
+- The algebraic energy-sharing source fixes its stationary carrier and
+  stiffness but not its stress tensor. Volume (`w=-1`) and conserved-flow
+  (`w=0`) lifts provide an exact nonselection control. Conditionally pairing
+  the primary dust limit with the minimal rich volume lift gives
+  `Delta_rhop=-rho_B rho_W`; this is not a claim that Nature occupies it.
 
 ## Claim Boundary
 
@@ -89,3 +94,4 @@ Outputs:
 - `data/derived/terminal_witness_handoff.json`
 - `data/derived/gravity_clock_witness.json`
 - `data/derived/ward_pressure_witness.json`
+- `data/derived/stress_type_branch_decision.json`
