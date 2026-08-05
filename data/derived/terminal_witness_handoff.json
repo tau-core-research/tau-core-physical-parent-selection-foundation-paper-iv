@@ -1,0 +1,15 @@
+{
+  "schema": "tau-core-paper-iv-terminal-witness-handoff-v0.1",
+  "scope": "linearized_source_frozen_complete_terminal_stack",
+  "primary_image_rank": 2,
+  "redundant_rich_increment": 0,
+  "novel_rich_increment": 1,
+  "witness_condition": "exists_ell_with_ell_J_primary_zero_and_ell_J_work_nonzero",
+  "preferred_terminal_stack": [
+    "gravity_stress_geometry",
+    "clock_work_time",
+    "quantum_record",
+    "matter_gauge"
+  ],
+  "claim_boundary": "a_nonzero_witness_can_reject_the_frozen_minimum_model_but_does_not_by_itself_identify_parent_ownership"
+}

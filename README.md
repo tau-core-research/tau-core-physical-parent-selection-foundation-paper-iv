@@ -48,6 +48,10 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   is source-redundant, or increases stacked rank and defines a genuinely richer
   theory. Thus the primary branch is selected inside the frozen MVP category;
   Nature-level selection of that minimum category remains open.
+- The source-frozen terminal-witness theorem gives the downstream handoff. A
+  rich carrier is linearly distinguishable exactly when its complete-terminal
+  Jacobian has a component orthogonal to the primary image; then a covector
+  annihilating every primary response but not the rich response exists.
 
 ## Claim Boundary
 
@@ -74,3 +78,4 @@ Outputs:
 - `data/derived/w3_once_counted_ledger_import.json`
 - `data/derived/w4_candidate_selection_decision.json`
 - `data/derived/carrier_category_decision.json`
+- `data/derived/terminal_witness_handoff.json`

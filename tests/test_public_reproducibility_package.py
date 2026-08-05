@@ -17,6 +17,7 @@ def test_required_files_exist():
         "data/derived/w3_once_counted_ledger_import.json",
         "data/derived/w4_candidate_selection_decision.json",
         "data/derived/carrier_category_decision.json",
+        "data/derived/terminal_witness_handoff.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -42,6 +43,7 @@ def test_manuscript_markers():
     assert "fig_parent_selection_fork.pdf" in tex
     assert "fig_signature_spine.pdf" in tex
     assert "Carrier-category dichotomy" in tex
+    assert "Complete-terminal witness" in tex
 
 
 def test_deduplicated_signature():
@@ -89,6 +91,15 @@ def test_carrier_category_decision():
     assert data["energy_sharing_status"] == (
         "excluded_inside_mvp_but_admissible_as_rank_novel_enrichment"
     )
+
+
+def test_terminal_witness_handoff():
+    data = json.loads(
+        (ROOT / "data/derived/terminal_witness_handoff.json").read_text()
+    )
+    assert data["redundant_rich_increment"] == 0
+    assert data["novel_rich_increment"] == 1
+    assert len(data["preferred_terminal_stack"]) == 4
 
 
 def test_arxiv_archive_is_source_only():
