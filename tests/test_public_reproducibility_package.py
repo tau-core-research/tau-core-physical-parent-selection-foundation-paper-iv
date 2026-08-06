@@ -18,6 +18,7 @@ def test_required_files_exist():
         "data/derived/w4_candidate_selection_decision.json",
         "data/derived/carrier_category_decision.json",
         "data/derived/terminal_witness_handoff.json",
+        "data/derived/three_readout_discriminator_handoff.json",
         "data/derived/gravity_clock_witness.json",
         "data/derived/ward_pressure_witness.json",
         "data/derived/stress_type_branch_decision.json",
@@ -54,6 +55,7 @@ def test_manuscript_markers():
     assert "fig_signature_spine.pdf" in tex
     assert "Carrier-category dichotomy" in tex
     assert "Complete-terminal witness" in tex
+    assert "Three-readout determinant handoff" in tex
     assert "Gravity--clock contrast" in tex
     assert "Ward-aligned no-go" in tex
     assert "Stress-type nonselection" in tex
@@ -128,6 +130,15 @@ def test_gravity_clock_witness():
     )
     assert data["primary_response"] == "Z_GT=0"
     assert data["rich_response"] == "Z_GT=-Delta_GT*w"
+
+
+def test_three_readout_discriminator_handoff():
+    data = json.loads(
+        (ROOT / "data/derived/three_readout_discriminator_handoff.json").read_text()
+    )
+    assert data["primary_prediction"] == "Z_tau=0"
+    assert data["novelty_condition"] == "det[a,b,j_W]!=0"
+    assert len(data["terminal_stack"]) == 3
 
 
 def test_ward_pressure_witness():

@@ -1,0 +1,13 @@
+{
+  "schema": "tau-core-paper-iv-three-readout-discriminator-v0.1",
+  "terminal_stack": ["energy_density_rho", "spatial_stress_p_or_pi", "clock_response_T"],
+  "primary_rank": 2,
+  "source_frozen_covector": "ell=a_cross_b",
+  "discriminator": "Z_tau=det[a,b,delta_Y]=ell_dot_delta_Y",
+  "primary_prediction": "Z_tau=0",
+  "rich_response": "Z_tau=det[a,b,j_W]*w",
+  "novelty_condition": "det[a,b,j_W]!=0",
+  "freeze_policy": ["morphology_descriptor_before_endpoint_data", "primary_columns_before_endpoint_data", "terminal_calibration_and_covariance_before_endpoint_data"],
+  "paper_v_handoff": "derive_the_clock_row_and_observer_relative_resolution_from_the_temporal_descent",
+  "claim_boundary": "a_nonzero_control_surviving_contrast_rejects_the_frozen_primary_forward_model_but_is_not_by_itself_a_tau_detection"
+}

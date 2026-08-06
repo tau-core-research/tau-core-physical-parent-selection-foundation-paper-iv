@@ -56,6 +56,12 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   `Z_GT=t_B delta_G-g_B delta_T`. It vanishes identically for the common-source
   primary response and detects the rich carrier exactly when
   `Delta_GT=g_B t_W-t_B g_W` is nonzero.
+- The final Paper-V handoff freezes a three-readout stack
+  `(delta_rho, delta_p or delta_Pi, delta_T)`. For two primary columns `a,b`,
+  the determinant `Z_tau=det[a,b,delta_Y]` vanishes identically on the primary
+  image and detects a rich response exactly when `det[a,b,j_W]` is nonzero.
+  The clock row must be derived in Paper V; the contrast is not an observed
+  Tau signal.
 - A Ward-aligned control shows that gravity and clock terminals built from the
   same energy-density contraction have zero determinant. The first viable
   stress witness is therefore density versus spatial pressure (or anisotropic
@@ -117,6 +123,7 @@ Outputs:
 - `data/derived/w4_candidate_selection_decision.json`
 - `data/derived/carrier_category_decision.json`
 - `data/derived/terminal_witness_handoff.json`
+- `data/derived/three_readout_discriminator_handoff.json`
 - `data/derived/gravity_clock_witness.json`
 - `data/derived/ward_pressure_witness.json`
 - `data/derived/stress_type_branch_decision.json`

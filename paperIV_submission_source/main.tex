@@ -638,6 +638,51 @@ If it is nonzero, standard relativistic redshift, stress modelling, source
 evolution and instrumental covariance must be controlled before a nonzero
 \(Z_{GT}\) can be interpreted as rejection of the primary forward model.
 
+\subsection{Three-readout determinant handoff}
+
+The two-terminal test can be degenerate even when the complete stack is not.
+The first concrete Paper-V handoff therefore freezes the typed terminal vector
+\begin{equation}
+ \delta Y=(\delta\rho,\delta p\ \hbox{or}\ \delta\Pi,\delta T)^{\mathsf T},
+ \label{eq:three-readout-stack}
+\end{equation}
+where the final row is an observer-relative clock response rather than a
+coordinate time label. Let the rank-two primary Jacobian have source-frozen
+columns \(a,b\in\mathbb R^3\), and put
+\begin{equation}
+ \ell=a\times b,
+ \qquad
+ Z_\tau=\ell^{\mathsf T}\delta Y
+ =\det[a\ b\ \delta Y].
+ \label{eq:three-readout-determinant}
+\end{equation}
+The terminal metric and calibration may replace the Euclidean cross product by
+its metric dual, but they must be declared before endpoint inspection.
+
+\begin{corollary}[Three-readout determinant witness]
+For every primary response \(\delta Y=ax_1+bx_2\), \(Z_\tau=0\). If a rich
+carrier contributes \(j_Ww\), then
+\begin{equation}
+ Z_\tau=\det[a\ b\ j_W]w.
+ \label{eq:three-readout-rich}
+\end{equation}
+Hence this stack detects the carrier at linear order exactly when
+\(\det[a\ b\ j_W]\ne0\).
+\end{corollary}
+
+\begin{proof}
+The vector \(a\times b\) annihilates both primary columns. Multilinearity of
+the determinant then gives Eq.~\eqref{eq:three-readout-rich}.
+\end{proof}
+
+This is a source-frozen discriminator specification, not an empirical Tau
+detection. The morphology descriptor, both primary columns, the clock
+construction, terminal calibration and covariance model must be fixed before
+the endpoint data are examined. A nonzero, control-surviving value rejects the
+frozen primary forward model; it does not by itself prove Tau ownership. Paper
+V inherits the finite task of deriving the clock row and its observer-relative
+resolution from the atemporal body rather than fitting it to this contrast.
+
 \subsection{Ward-aligned no-go and the first viable stress witness}
 
 There is an immediate degeneracy. If the gravity terminal is only the same
@@ -913,6 +958,9 @@ nonzero orthogonal witness is necessary and sufficient at linear order\\
 Gravity--clock witness & derived &
 \(Z_{GT}=0\) on the primary branch and is nonzero iff
 \(\Delta_{GT}w\ne0\)\\
+Three-readout determinant handoff & derived &
+\(Z_\tau=\det[a\ b\ \delta Y]\) is primary-null and detects exactly the
+rank-novel component in density, stress and clock response\\
 Ward-aligned gravity--clock pair & exact no-go & same energy contraction has
 zero determinant\\
 Density--pressure witness & derived conditionally & novel iff the carrier
@@ -977,7 +1025,8 @@ derive the universal seed from a prior temporal process, prove that the
 physical base realizes the adopted convex/Frobenius packet, identify a
 laboratory carrier, determine SI constants, or recover the full Standard
 Model.  It also does not promote a successful downstream terminal fit into
-evidence for Eq.~\eqref{eq:selection-question}.
+evidence for Eq.~\eqref{eq:selection-question}, nor present the three-readout
+contrast as an observed Tau signal.
 
 \section{Conclusion}
 
