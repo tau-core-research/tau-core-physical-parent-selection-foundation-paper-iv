@@ -1,6 +1,6 @@
 # Tau Core Foundation Paper IV Preparation
 
-## Physical Parent Selection for a Common Tau Completion
+## Physical Parent-Law Realization for a Common Tau Completion
 
 This private repository prepares the fourth manuscript in the Roman Tau Core
 foundation sequence. Papers I--III respectively freeze the architecture,
@@ -11,11 +11,39 @@ question
 B_tau^phys + s_U -> Gamma_MVP ?
 ```
 
+## Atemporal Parent-Realization Terminology
+
+Because the Tau parent is atemporal, “Nature selects” does not mean an
+external agent or a later decision. It is legacy shorthand for the internal
+physical implication
+
+\[
+(B_\tau^{\mathrm{phys}},s_U,\mathcal L_{\mathrm{parent}})
+\Longrightarrow \mathfrak P,
+\]
+
+together with physical occupation of the support of \(\mathfrak P\). A theorem
+inside a declared completion proves only class-relative realization; it does
+not prove this unrestricted base–seed arrow. Agreement of finitely many
+terminal readouts also cannot establish ambient-source exhaustivity. The
+current terminology is therefore **parent-law realization** and **physical
+occupation**.
+
+
+The historical paper title retains “selection” only as shorthand for this
+simultaneous internal realization-and-occupation question.
+
 The current package is a **preparation manuscript**, not a submitted paper. It
 contains a self-contained nonselection theorem, a conditional minimal positive
 selector, a source-signature target, a proof ledger, and a reproducible figure.
 
 ## Current Result
+
+- The exact finite-local occupation law is
+  e_star=(C-B^dagger A^-1 B)^-1(k-B^dagger A^-1 j). Positive unloaded split
+  sectors vanish; stable loaded/coupled sectors belong to generated support.
+  Finite C2 local occupied-body completeness is closed, while ambient
+  global/topological exhaustivity remains open.
 
 - Current separate source laws do not select the joint body/certificate
   potential: an exact joint/split counterpair exists.
@@ -24,11 +52,31 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
 - If the retained certificate is physically typed as the Legendre response of
   the body under one strictly convex parent potential, the joint law is the
   unique minimal completion and needs no independent gain.
-- Nature-level selection of that semantics and of the full common completion
-  remains open.
+- Unrestricted parent-law realization and occupation of that semantics and of
+  the full common completion remain open.
 - The `Gamma_MVP` selection target is frozen as eight deduplicated source
   blocks `S0`--`S7`; hold, detector error and timing endpoints are classified
   separately as operational validation data.
+- The same eight blocks must jointly generate one observer-access map and the
+  typed primitive terminal/quantizer family. No ninth block or independently
+  fitted time, quantum, gravity, matter, radiation or gauge access weight is
+  admitted.
+- The common-source assembly proposition now proves the downstream direction:
+  once the complete eight-block signature and `Pi_phys` are occupied, `S0`
+  derives the body/support, `S1` the joint typed terminal map, `S5` the stable
+  quantizers, and `S6/S7` their common metric/action unit. Separate selection
+  of every readout map is eliminated; occupation of the complete signature is
+  the remaining upstream blocker.
+- The cyclic-source occupation theorem now proves that a faithful realized
+  universal seed occupies every `S0`--`S7` block when it is cyclic for the
+  complete source algebra. The exact quadratic criterion is
+  `p_i K_src^{-1} j_s != 0` for every block. A same-reduct counterpair and the
+  hidden-extension stop theorem show that current general base--seed laws and
+  finite terminals do not prove this cyclicity or ambient-source exhaustivity.
+- Inside the declared source-irredundant MVP, cyclic PUSC generation, the
+  unique Frobenius base-unfolding route and the observed existence of
+  redundant stable records select the nonzero occupied complete packet. This
+  does not exclude an ambient rank-novel source carrier outside the MVP.
 - Complete variational-response identity on the physical body quotient forces
   the certificate to equal the body-action derivative. A hidden response
   covector gives an exact countermodel, so physical occupation of response
@@ -38,7 +86,8 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   ownership and cross-block controls pass 106 combined checks. The structural
   ledger is closed; its filling by one physical microscopic parent remains
   open.
-- The finite W4 comparison is negative at nature-selection level: the primary
+- The finite W4 comparison is negative at unrestricted parent-realization
+  level: the primary
   enriched completion and an independent energy-sharing completion retain the
   same current narrow reduct. The primary branch is conditionally complete and
   remains the adopted working candidate, but current source data do not select
@@ -47,7 +96,7 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   causal-work row either factors through the frozen eight-block descriptor and
   is source-redundant, or increases stacked rank and defines a genuinely richer
   theory. Thus the primary branch is selected inside the frozen MVP category;
-  Nature-level selection of that minimum category remains open.
+  Unrestricted parent-law realization of that minimum category remains open.
 - The source-frozen terminal-witness theorem gives the downstream handoff. A
   rich carrier is linearly distinguishable exactly when its complete-terminal
   Jacobian has a component orthogonal to the primary image; then a covector
@@ -60,8 +109,11 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   `(delta_rho, delta_p or delta_Pi, delta_T)`. For two primary columns `a,b`,
   the determinant `Z_tau=det[a,b,delta_Y]` vanishes identically on the primary
   image and detects a rich response exactly when `det[a,b,j_W]` is nonzero.
-  The clock row must be derived in Paper V; the contrast is not an observed
-  Tau signal.
+  Paper V now supplies the regular local clock row as a source derivative of
+  its path-clock functional, proves the exact neutral local GR limit and
+  freezes `Delta_q_T=log(R12_obs/R12_GR)` as its finite control. The contrast
+  is still not an observed Tau signal; unrestricted physical occupation and a nonzero
+  measured value remain open.
 - A Ward-aligned control shows that gravity and clock terminals built from the
   same energy-density contraction have zero determinant. The first viable
   stress witness is therefore density versus spatial pressure (or anisotropic
@@ -70,7 +122,8 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   stiffness but not its stress tensor. Volume (`w=-1`) and conserved-flow
   (`w=0`) lifts provide an exact nonselection control. Conditionally pairing
   the primary dust limit with the minimal rich volume lift gives
-  `Delta_rhop=-rho_B rho_W`; this is not a claim that Nature occupies it.
+  `Delta_rhop=-rho_B rho_W`; this is not a claim of unrestricted physical
+  occupation.
 - Within the frozen ultralocal scalar carrier class, covariance uniquely
   selects the volume lift, hence `w_W=-1` and zero anisotropic stress. Kinetic,
   flow, directional and nonlocal alternatives are richer source types.
@@ -93,14 +146,19 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   symbol, branch/topological label, or terminal separator. Hence every local
   finite-order `W` is absorbed, redundant, or belongs to a richer theory.
 - A direct-sum hidden-source construction proves a final stop theorem: no
-  finite declared terminal stack can establish Nature-level source
+  finite declared terminal stack can establish ambient-source
   exhaustivity. The extension is either a quotient null or evidence that the
   descriptor is incomplete.
 
 ## Claim Boundary
 
-This package does not prove that Nature realizes Tau Core, selects
-`Gamma_MVP`, or produces the Standard Model, gravity, time, or quantum theory.
+Paper VI adds an exact boundary: operational factorization proves parent
+additivity only under joint primitive cross-defect faithfulness; an
+equal-readout hidden-cross parent otherwise survives.
+
+This package does not prove that the unrestricted physical base--seed law
+realizes Tau Core, occupies `Gamma_MVP`, or produces the Standard Model,
+gravity, time, or quantum theory.
 It does not use terminal fit quality to select a parent law. The positive
 result is conditional; the no-go is exact on the declared finite source
 reduct.

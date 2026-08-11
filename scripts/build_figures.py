@@ -39,7 +39,7 @@ def selection_fork(path):
     arrow(ax, (.23, .46), (.36, .25), "same pure-axis data")
     arrow(ax, (.60, .75), (.72, .75), "complete mediation")
     arrow(ax, (.60, .25), (.72, .25), "no joint role")
-    ax.text(.5, .96, "Physical parent-selection fork", ha="center",
+    ax.text(.5, .96, "Physical parent-law realization fork", ha="center",
             va="top", fontsize=12, fontweight="bold")
     ax.text(.5, .04,
             "Seed occupation fixes support in both branches; it does not choose the mixed Hessian.",

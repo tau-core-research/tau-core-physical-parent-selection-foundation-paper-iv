@@ -1,0 +1,17 @@
+{
+  "claim": "finite_local_occupied_support_selection",
+  "formula": "e_star=(C-B^dagger A^-1 B)^-1(k-B^dagger A^-1 j)",
+  "split": {
+    "S_E": 1.0,
+    "k_eff": 0.0,
+    "e_star": 0.0
+  },
+  "coupled": {
+    "S_E": 0.9375,
+    "k_eff": -0.25,
+    "e_star": -0.26666666666666666,
+    "minimum_hessian_eigenvalue": 0.75
+  },
+  "status": "finite_C2_local_occupied_support_closed",
+  "not_proved": "ambient_global_topological_or_infinite_exhaustivity"
+}

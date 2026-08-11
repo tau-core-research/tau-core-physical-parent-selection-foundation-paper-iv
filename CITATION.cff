@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Physical Parent Selection for a Common Tau Completion"
+title: "Physical Parent-Law Realization for a Common Tau Completion"
 message: "This is a private preparation package; cite a released version only."
 type: article
 authors:
@@ -8,4 +8,3 @@ authors:
 year: 2026
 license: MIT
 repository-code: "https://github.com/tau-core-research/tau-core-physical-parent-selection-foundation-paper-iv"
-

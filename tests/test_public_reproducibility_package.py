@@ -29,6 +29,7 @@ def test_required_files_exist():
         "data/derived/nonabsorbed_rich_trichotomy.json",
         "data/derived/pbd_source_signature_audit.json",
         "data/derived/nature_packet_stop_theorem.json",
+        "data/derived/finite_local_occupied_support.json",
         "arxiv_submission_source.zip",
     ]:
         assert (ROOT / rel).exists(), rel
@@ -49,8 +50,9 @@ def test_claim_ledger_boundaries():
 
 def test_manuscript_markers():
     tex = (ROOT / "paperIV_submission_source/main.tex").read_text()
-    assert "Physical Parent Selection for a Common Tau Completion" in tex
-    assert "Nature-level selection remains open" in tex
+    assert "Physical Parent-Law Realization for a Common Tau Completion" in tex
+    assert "Atemporal parent-realization terminology" in tex
+    assert "Unrestricted parent-law realization and physical occupation remain open" in tex
     assert "fig_parent_selection_fork.pdf" in tex
     assert "fig_signature_spine.pdf" in tex
     assert "Carrier-category dichotomy" in tex
@@ -65,7 +67,12 @@ def test_manuscript_markers():
     assert "Algebraic exchange absorption" in tex
     assert "Nonabsorbed rich trichotomy" in tex
     assert "P/B/D source-signature audit" in tex
-    assert "Nature-packet stop theorem" in tex
+    assert "Ambient-source exhaustivity stop theorem" in tex
+    assert "Common-source primitive-readout assembly" in tex
+    assert "eq:mopr-source-assembly" in tex
+    assert "Cyclic-source occupation" in tex
+    assert "eq:full-source-occupation" in tex
+    assert "eq:mvp-actual-occupation" in tex
 
 
 def test_deduplicated_signature():
@@ -213,6 +220,13 @@ def test_nature_packet_stop_theorem():
     assert data["declared_terminal_change"] == 0
     assert set(data["dichotomy"]) == {"true_null", "incomplete_descriptor"}
     assert len(data["required_reopening"]) == 3
+
+
+def test_finite_local_occupied_support():
+    data = json.loads((ROOT / "data/derived/finite_local_occupied_support.json").read_text())
+    assert data["split"]["e_star"] == 0.0
+    assert abs(data["coupled"]["e_star"] + 4.0 / 15.0) < 1e-12
+    assert data["status"] == "finite_C2_local_occupied_support_closed"
 
 
 def test_arxiv_archive_is_source_only():
