@@ -33,11 +33,27 @@ occupation**.
 The historical paper title retains “selection” only as shorthand for this
 simultaneous internal realization-and-occupation question.
 
+## Observer Co-Descent Obligation
+
+The parent-law target includes joint occupation of an observer-producing
+packet: body-side carrier, regular local rank-four descent, stable
+observer--source quantizer and nonzero record/effect. The observer and its
+accessible 4D world are co-readouts, not a pre-existing observer plus a later
+channel. Class-relative occupation is available in the enriched completion;
+unrestricted physical occupation remains blocked by the same-reduct no-go.
+
 The current package is a **preparation manuscript**, not a submitted paper. It
 contains a self-contained nonselection theorem, a conditional minimal positive
 selector, a source-signature target, a proof ledger, and a reproducible figure.
 
 ## Current Result
+
+- The global source-fidelity theorem now has a concrete pointed-exterior
+  corollary: one full-rank three-dimensional seed incidence supplies a common
+  pair/top closure packet of ranks `3 + 1`, and faithful Hodge plus
+  source-fidelity/no-bypass occupies both degrees in the declared enriched
+  class. The narrow relation/order reduct does not entail this grammar;
+  unrestricted parent-law realization remains open.
 
 - The exact finite-local occupation law is
   e_star=(C-B^dagger A^-1 B)^-1(k-B^dagger A^-1 j). Positive unloaded split
