@@ -13,7 +13,7 @@
 \title{\textbf{Physical Parent-Law Realization for a Common Tau Completion}\\
 \large Tau Core Foundation Paper IV --- Preparation Manuscript}
 \author{Jozsef Olcsak\\\small Independent researcher}
-\date{Preparation v0.1 --- Last revised: 11 August 2026}
+\date{Preparation v0.1 --- Last revised: 14 August 2026}
 
 \begin{document}
 \maketitle
@@ -92,6 +92,59 @@ terminology below is shorthand for this distinction.
 
 \tableofcontents
 \clearpage
+
+\section{Complete source characteristic and maximal base redundancy}
+
+The earlier pure-realization branch treated every fixed-seed base coordinate
+as potentially redundant. That reading is too strong when the base owns
+physical coherence ratios, an action unit or constitutive data. Define the
+complete source characteristic
+\begin{equation}
+ \mathfrak c_{B,s}:\mathfrak R_B\longrightarrow
+ \mathfrak S_U\times\mathfrak P_B,
+ \qquad
+ \mathfrak c_{B,s}(r)=\bigl(q_B(r),\beta_B(r)\bigr),
+ \label{eq:complete-source-characteristic}
+\end{equation}
+where $\beta_B$ contains every independently physical base modulus frozen
+before body stabilization.
+
+\begin{proposition}[Maximal redundancy splitting]
+Assume that \eqref{eq:complete-source-characteristic} has constant rank near
+an occupied stationary point, its connected fibers are the true
+base-realization orbits, and every admissible physical scalar is invariant on
+those orbits. Then every such scalar factors locally through
+$\mathfrak c_{B,s}$, and
+\begin{equation}
+ T_{r_*}\mathfrak R_B
+ =\ker D\mathfrak c_{B,s}\oplus\mathcal E_B^{\rm phys},
+ \qquad
+ H_{B,s}=D\mathfrak c_{B,s}^{*}H_{\rm src}D\mathfrak c_{B,s}.
+ \label{eq:maximal-redundancy-splitting}
+\end{equation}
+In particular $H_{B,s}\ker D\mathfrak c_{B,s}=0$. A fixed-seed direction is
+redundant only if it also leaves $\beta_B$ unchanged.
+\end{proposition}
+\begin{proof}
+The constant-rank theorem gives adapted coordinates $(x,y)$ with
+$\mathfrak c_{B,s}(x,y)=x$. Fiber invariance gives $F(x,y)=f(x)$ and hence
+local factorization. A positive source metric supplies the displayed tangent
+complement. At the stationary point $df=0$, so the second derivative of the
+composition has no term proportional to $df$ and gives the Hessian pullback
+in \eqref{eq:maximal-redundancy-splitting}.
+\end{proof}
+
+If a faithful Hodge state separates this quotient and the declared
+continuity, covariance, independent-composition and common-unit premises
+hold, the completion excess is therefore
+\begin{equation}
+ \Delta\mathcal A_{B,s}
+ =\mathcal A_*D\!\left(\widehat\rho_{s,\beta}\|\rho_M\right).
+ \label{eq:augmented-source-fidelity}
+\end{equation}
+This generalizes the redundancy-only branch without quotienting physical base
+constants. It remains conditional on completeness of $\beta_B$ and does not
+prove unrestricted parent-law occupation.
 
 \section{Question and series interface}
 
