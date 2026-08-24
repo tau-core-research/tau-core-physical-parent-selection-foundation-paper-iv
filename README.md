@@ -11,6 +11,12 @@ question
 B_tau^phys + s_U -> Gamma_MVP ?
 ```
 
+The separator audit reduces four apparent downstream choices---mixed ideal,
+multiplicity, relative gluing and faithful occupation---to one joint
+representation/state datum. This closes them inside the enriched working
+completion but leaves exactly Paper IV's upstream question: which physical
+base--seed parent law realizes and occupies that datum?
+
 ## Atemporal Parent-Realization Terminology
 
 Because the Tau parent is atemporal, “Nature selects” does not mean an
@@ -33,6 +39,18 @@ occupation**.
 The historical paper title retains “selection” only as shorthand for this
 simultaneous internal realization-and-occupation question.
 
+## Minimal Base--Seed Formation Result
+
+Paper IV now inherits Paper I's joint-law-first formation datum and owns its
+physical realization boundary. A physically fixed zero-source member makes
+the base the zero-source response structure and the seed a base-relative
+source class, uniquely modulo body-independent source constants. Without that
+reference, a common body-dependent refactorization proves that base and seed
+are not separately identifiable. A stable nonneutral body may be activated by
+direct force, neutral-branch instability or global branch exchange. The open
+problem is therefore the physical ownership of the joint law, zero source,
+selector and occupied universal seed, not the internal factorization algebra.
+
 ## Observer Co-Descent Obligation
 
 The parent-law target includes joint occupation of an observer-producing
@@ -42,11 +60,49 @@ accessible 4D world are co-readouts, not a pre-existing observer plus a later
 channel. Class-relative occupation is available in the enriched completion;
 unrestricted physical occupation remains blocked by the same-reduct no-go.
 
+The M4 length--time--action frame is inherited only up to the common positive
+metrological orbit. One measured dimension-bearing anchor chooses its SI
+representative. Paper IV therefore treats parent realization of the physical
+packet, connector ownership and dimensionless couplings as selection
+questions, but does not treat the decimal SI unit as another parent terminal.
+
+## Temporal Actuality Boundary
+
+Stationary body realization and temporal actuality are now separated. Inside
+the declared enriched occurrence--action completion, EOCC supplies
+`X_EOCC=-Gamma^-1 dA_occ` and the exact order covector
+`omega_occ=-dA_occ`, with strictly positive evaluation away from equilibrium.
+The static action and minimal old-bare Tau do not entail that actuality law,
+and stabilization does not require continuing formation power.
+
+Paper V's stronger no-go is inherited: every finite source-frozen acyclic
+process in the present class, including local/adaptive interventions,
+stochastic kernels and shared-noise counterfactuals, has an operationally
+identical atemporal simultaneous factor-graph realization. EOCC therefore
+defines a conditional enriched temporal model; finite terminal agreement does
+not prove literal parent traversal or Nature-level temporality.
+
 The current package is a **preparation manuscript**, not a submitted paper. It
 contains a self-contained nonselection theorem, a conditional minimal positive
 selector, a source-signature target, a proof ledger, and a reproducible figure.
 
 ## Current Result
+
+- `OPSGC-P1/AMBINERT-N1` now separates operational physical completeness from
+  ambient presentation. After quotienting true physical nulls, the enriched
+  one-source premise identifies the occupied physical parent with the
+  universal-seed-generated closure. A completely inert ambient summand is
+  presentation surplus; a non-null same-complete-seed-fibre difference is a
+  second source and directly falsifies the one-source completion. This is a
+  conditional source-ontology theorem, not evidence that Nature owns the
+  premise.
+
+- The temporal/projective handoff is now source-typed more sharply. CCOC plus
+  OGAS conditionally provides a signed local rank-four section, but not a full
+  projective/body measure connector. If that connector is source-owned,
+  split-preserving and exactly measure-matching, its common-line Jacobian is
+  uniquely `g_FFL^-3`; the remaining parent-realization question is existence
+  and occupation of the connector, not another fitted temporal gain.
 
 - The global source-fidelity theorem now has a concrete pointed-exterior
   corollary: one full-rank three-dimensional seed incidence supplies a common

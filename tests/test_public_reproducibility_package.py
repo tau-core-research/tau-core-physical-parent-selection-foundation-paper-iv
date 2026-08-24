@@ -73,6 +73,8 @@ def test_manuscript_markers():
     assert "Cyclic-source occupation" in tex
     assert "eq:full-source-occupation" in tex
     assert "eq:mvp-actual-occupation" in tex
+    assert "projective/body connector" in tex
+    assert "eq:projective-body-scale-import" in tex
 
 
 def test_deduplicated_signature():
@@ -235,3 +237,11 @@ def test_arxiv_archive_is_source_only():
     assert "main.tex" in names
     assert "figures/fig_parent_selection_fork.pdf" in names
     assert "main.pdf" not in names
+
+
+def test_m4_metrological_boundary():
+    text = (ROOT / "paperIV_submission_source/main.tex").read_text()
+    normalized = " ".join(text.split())
+    assert "eq:paperiv-m4-metrological-orbit" in text
+    assert "does not need to select that representative" in normalized
+    assert "dimensionless coupling normalizations remain" in normalized
