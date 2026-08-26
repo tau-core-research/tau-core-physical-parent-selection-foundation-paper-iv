@@ -50,6 +50,7 @@ def test_claim_ledger_boundaries():
 
 def test_manuscript_markers():
     tex = (ROOT / "paperIV_submission_source/main.tex").read_text()
+    normalized = " ".join(tex.lower().split())
     assert "Physical Parent-Law Realization for a Common Tau Completion" in tex
     assert "Atemporal parent-realization terminology" in tex
     assert "Unrestricted parent-law realization and physical occupation remain open" in tex
@@ -75,6 +76,11 @@ def test_manuscript_markers():
     assert "eq:mvp-actual-occupation" in tex
     assert "projective/body connector" in tex
     assert "eq:projective-body-scale-import" in tex
+    assert "Hodge--Clifford charged-state ownership" in tex
+    assert "eq:hodge-clifford-root-free-state" in tex
+    assert "current unrestricted reduct does not" in tex
+    assert "physical homogeneity class" in normalized
+    assert "mixed-origin" in tex
 
 
 def test_deduplicated_signature():

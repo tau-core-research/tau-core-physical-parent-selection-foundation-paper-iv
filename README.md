@@ -17,6 +17,16 @@ representation/state datum. This closes them inside the enriched working
 completion but leaves exactly Paper IV's upstream question: which physical
 base--seed parent law realizes and occupies that datum?
 
+## Common-Ancestor Source Obligation
+
+The declared readout family now factors through one shared preterminal
+descriptor \(\Xi_{OS}\). Paper IV does not re-prove the factorization theorem;
+it owns the upstream obligation that a physically complete source signature
+must exclude any occupied terminal that varies along a
+\(\Xi_{OS}\)-fibre. The present eight-block packet enforces no-bypass only
+inside its declared occupied class. Nature-level occupation and ambient-source
+exhaustivity remain open.
+
 ## Atemporal Parent-Realization Terminology
 
 Because the Tau parent is atemporal, “Nature selects” does not mean an
@@ -50,6 +60,27 @@ are not separately identifiable. A stable nonneutral body may be activated by
 direct force, neutral-branch instability or global branch exchange. The open
 problem is therefore the physical ownership of the joint law, zero source,
 selector and occupied universal seed, not the internal factorization algebra.
+
+Paper IV now also records the exact seed--base inhomogeneity boundary. In the
+homogeneous equivariant unique-response branch,
+`Q m_* = K_B^{-1} Q J_U(s)` after subtraction of the base-only solution, so
+the transverse body mode is wholly seed-induced. The same final body admits
+an inhomogeneous-base realization when base homogeneity is not independently
+fixed; mode mixing and spontaneous nonunique breaking are further controls.
+Accordingly this is a class-relative localization theorem, not a terminal
+proof that Nature realizes the SHR ownership split.
+Neither base homogeneity nor seed inhomogeneity is physically selected by the
+current theory. The homogeneous-base/structured-seed assignment remains one
+conditional working branch alongside inhomogeneous-base, mixed-origin and
+spontaneous-breaking alternatives.
+
+The 4D inverse problem has three claim-distinct contributions: a seed-loaded
+body shaped by the base susceptibility, a base-origin or mode-mixed body
+outside the homogeneous branch, and an observer-relative correlated readout
+contribution. In the strict SHR branch both base and seed are causally
+relevant to the body-borne pattern, but only the seed is the transverse
+forcing. One observed terminal pattern cannot determine these shares without
+a source-frozen forward model and cross-observer controls.
 
 ## Observer Co-Descent Obligation
 
@@ -110,6 +141,12 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   source-fidelity/no-bypass occupies both degrees in the declared enriched
   class. The narrow relation/order reduct does not entail this grammar;
   unrestricted parent-law realization remains open.
+
+- In the seed-fixed Hodge-generated class, Clifford naturality forces the
+  charged source state to factor as `I4/4 x rho_internal`. Root freedom and a
+  common photon/observer cone then follow without a separate deletion law or
+  terminal gain. The unrestricted reduct still does not prove physical class
+  membership.
 
 - The exact finite-local occupation law is
   e_star=(C-B^dagger A^-1 B)^-1(k-B^dagger A^-1 j). Positive unloaded split
@@ -234,6 +271,15 @@ gravity, time, or quantum theory.
 It does not use terminal fit quality to select a parent law. The positive
 result is conditional; the no-go is exact on the declared finite source
 reduct.
+
+## Full-4D Scoring Compiler Boundary
+
+Physical occupation of a mixed source packet does not by itself imply a
+Tau-over-standard anomaly. The inherited scoreable object is
+`E_K = (K_HH - K_std) - C K_VV^-1 C^dagger`; the direct visible shift and the
+minimum-lift Schur correction must be compared together. Selecting and
+occupying a nonzero terminal-visible standard excess remains a separate
+physical obligation.
 
 ## Reproduce
 
