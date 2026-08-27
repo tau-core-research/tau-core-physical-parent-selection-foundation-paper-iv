@@ -310,3 +310,14 @@ Outputs:
 - `data/derived/nonabsorbed_rich_trichotomy.json`
 - `data/derived/pbd_source_signature_audit.json`
 - `data/derived/nature_packet_stop_theorem.json`
+
+## Unified Source Selection (2026-08-27)
+
+Paper IV now owns `PD-USS1`: a unique body minimum, source-irredundant relation
+zero set, source-owned gapped grading identification, unique reversible
+transport zero, associated no-bypass terminal representations and
+global-minimum actualization conditionally select one state family, transport
+law and common occupied carrier modulo gauge. `PD-USS-N1` proves that this
+selection does not imply a nonzero standard-orthogonal signal. The current
+Tau source does not jointly derive all premises, and the updated public audit
+finds `0/31` eligible two-role occupation packets.
