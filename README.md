@@ -119,6 +119,13 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
 
 ## Current Result
 
+- ACT-PCLOSE1 now proves a conditional local source-to-terminal closure from
+  one ordered Parent-action packet:
+  `D_S Z_* = -H_Z^{-1} B_ZS`, with local terminal completeness iff
+  `ker J_term = N_phys`.  The theorem cannot self-certify ambient source
+  exhaustivity or Nature occupation; the existing stable hidden-sector
+  extension remains the exact countermodel.
+
 - `OPSGC-P1/AMBINERT-N1` now separates operational physical completeness from
   ambient presentation. After quotienting true physical nulls, the enriched
   one-source premise identifies the occupied physical parent with the

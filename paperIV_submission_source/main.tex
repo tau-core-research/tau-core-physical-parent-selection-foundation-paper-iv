@@ -13,7 +13,7 @@
 \title{\textbf{Physical Parent-Law Realization for a Common Tau Completion}\\
 \large Tau Core Foundation Paper IV --- Preparation Manuscript}
 \author{Jozsef Olcsak\\\small Independent researcher}
-\date{Preparation v0.1 --- Last revised: 27 August 2026}
+\date{Preparation v0.1 --- Last revised: 29 August 2026}
 
 \begin{document}
 \maketitle
@@ -173,9 +173,35 @@ quantizer, and a nontrivial record/effect.  Only that joint packet is an
 operational observer, and it is co-produced with its accessible 4D world.
 Consequently observerhood is an upstream occupation obligation of the parent
 law, not a downstream terminal switch.  The class-relative source-fidelity /
-pointed-exterior completion supplies such an occupied packet; the
+pointed-exterior completion supplies a candidate carrier and source packet in
+its adopted class, but it does not yet derive the complete operational
+observer packet: regular visible rank four, a stable quantizer, a Lorentzian
+realization and a nonzero record must still be sourced together.  The
 same-reduct component-offset countermodel prevents promotion to unrestricted
 physical realization.
+
+The sharpened upstream obligation can be written as one source-owned packet
+\begin{equation}
+ \mathfrak P_{4D}^{\rm src}
+ =\bigl(\mathfrak d_\tau,R^{\mathfrak d}_{OS},
+        \{\omega_{OS,x}\},G_{\rm occ},Q_{OS},
+        U_{\rm DA\leftrightarrow ROOT}\bigr),
+ \label{eq:upstream-4d-source-packet}
+\end{equation}
+where $\mathfrak d_\tau$ is selected before observer restriction and
+\(
+ \Phi_{OS,x}=\widetilde\Phi_{OS,x}\circ R^{\mathfrak d}_{OS}
+\)
+is the visible tangent map.  Parent selection must make this packet a
+descendant of the enriched base--seed law without fitting it to terminal
+geometry.  The present completion does not prove constant
+$\operatorname{rank}\Phi_{OS,x}=4$, Frobenius integrability,
+Lorentz-conformal realizability, or the displayed DA--ROOT/M4TR
+same-carrier intertwiner.  Same-reduct completions can retain the current
+source/body data while changing $R^{\mathfrak d}_{OS}$ or the cross-route
+intertwiner, so these objects are not consequences of the narrow reduct.
+They are explicit additional outputs required of a successful physical
+Parent action, not independently adjustable terminal inputs.
 
 The sole question owned by this paper is
 \begin{equation}
@@ -1436,6 +1462,84 @@ The premise itself is an enriched-Tau physical-source principle. Neither
 old-bare Tau, exact 4D recovery nor absence of a current counterexample proves
 that Nature realizes it.
 
+\subsection{Physical-quotient actional closure}
+
+The preceding source theorem can be connected to the complete readout stack
+without pretending that old-bare Tau determines every terminal law.  Let
+\[
+ \mathfrak A_{\rm phys}=
+ \bigl(\mathcal A_{BS},\mathcal A_{\rm post}^{M}\bigr)
+\]
+be an ordered packet: the base--seed action first selects a unique stable
+orbit $[\sigma_U,M_\tau]$, and only after that body is frozen is the post-body
+observer--source action varied on the physical quotient
+$\mathcal X_{\rm phys}=(\mathcal S\times\mathcal M\times\mathcal Z)/G$.
+Assume that (i) the typed source domain and its physical null are supplied
+endpoint-blindly; (ii) the body orbit is unique and the declared
+no-backreaction ordering holds; (iii) the post-body stationary branch is
+regular; (iv) the same source-owned post-body action supplies both its reduced
+Hessian and mixed source derivative; (v) one frozen descriptor and typed
+projector--transport--quantizer maps own all declared terminals; and (vi) the
+stacked terminal kernel is exactly the physical null.  Nature occupation and
+known-limit recovery are additional physical premises, not consequences of
+stationarity.
+
+\begin{proposition}[ACT-PCLOSE1: conditional local actional closure]
+\label{prop:act-pclose1}
+Under the preceding assumptions, the ordered action packet determines the
+local chain
+\[
+ \mathfrak A_{\rm phys}\longrightarrow[\sigma_U,M_\tau]
+ \longrightarrow(H_Z,B_{ZS})\longrightarrow\Xi
+ \longrightarrow(O_T,O_Q,O_G,\ldots),
+\]
+where
+\begin{equation}
+ \boxed{D_SZ_*=-H_Z^{-1}B_{ZS}},\qquad
+ H_Z=D_Z^2\mathcal A_{\rm post}^{M_*},\quad
+ B_{ZS}=D_SD_Z\mathcal A_{\rm post}^{M_*},
+ \label{eq:act-pclose-response}
+\end{equation}
+and every terminal is a fixed descendant
+\begin{equation}
+ O_i=Q_{OS,i}\circ T_i\circ P_i\circ\Xi(Z_*).
+ \label{eq:act-pclose-terminal}
+\end{equation}
+Writing $J_{\rm term}$ for the stacked differential of the declared terminal
+family, that family is locally complete on the physical quotient exactly when
+\begin{equation}
+ \boxed{\ker J_{\rm term}=\mathcal N_{\rm phys}.}
+ \label{eq:act-pclose-kernel}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Post-body stationarity is
+$F(Z,S)=D_Z\mathcal A_{\rm post}^{M_*}(Z;S)=0$.  Invertibility of
+$D_ZF=H_Z$ on the physical quotient gives a unique local branch by the
+implicit-function theorem.  Differentiating $F(Z_*(S),S)=0$ gives
+Eq.~\eqref{eq:act-pclose-response}.  Equation~\eqref{eq:act-pclose-terminal}
+then follows by the chain rule and the frozen descendant maps.  The stacked
+map is injective on the quotient iff its kernel before quotienting is exactly
+$\mathcal N_{\rm phys}$, proving Eq.~\eqref{eq:act-pclose-kernel}.
+\end{proof}
+
+The converse action problem has its own exact boundary.  A prescribed finite-
+or Banach-dimensional response one-form $\omega$ is locally generated by a
+scalar action on a star-shaped chart iff $d\omega=0$.  Global construction
+can additionally fail through a nontrivial first cohomology class; field
+theory requires the corresponding variational-bicomplex Helmholtz conditions.
+Thus an arbitrary response table cannot simply be renamed an action.
+
+ACT-PCLOSE1 is deliberately local and conditional.  It does not derive the
+typed source language, global nonlinear completeness, Standard-Model content,
+SI units, or a nonzero Tau-specific signal.  Most importantly it cannot
+self-certify source exhaustivity or Nature occupation.  The stable hidden
+sector in Eq.~\eqref{eq:hidden-source-action} is the exact control: it can be
+occupied while every declared terminal remains unchanged.  The theorem closes
+a supplied physical quotient; it does not prove that the supplied quotient is
+all of Nature.
+
 \subsection{Generated-support occupation criterion}
 
 The remaining parent-side condition has a finite exact form. Let the typed
@@ -1876,6 +1980,46 @@ physics beyond the standard leaf. Technical Paper VII-B's updated public
 audit finds no eligible independently typed two-role packet among 31
 candidates. Nature-level occupation is therefore not empirically negative;
 it is not identified by the present public record.
+
+\section{Why Gram and spectral structure do not select the Parent}
+
+The conditional Graph/Hilbert construction supplies exact admissibility
+constraints but no additional physical selector.  If
+$G_{ab}=\langle\chi_a|\chi_b\rangle$, then
+$G=G^\dagger\succeq0$ and $G_{aa}=1$.  The pair
+\begin{equation}
+ G_{\rm independent}=I_n,
+ \qquad
+ G_{\rm collective}=\mathbf1\mathbf1^*
+ \label{eq:paperIV-gram-counterpair}
+\end{equation}
+satisfies all three axioms while representing respectively rank $n$ and rank
+one.  Hence positivity, Gram rank, connectivity or a low eigenspace cannot
+select the physical seed, body or occupied source sector.
+
+The frequently suggested functional
+\begin{equation}
+ \mathcal F[G,\psi]
+ =\alpha\sum_{\lambda_i(G)<0}|\lambda_i(G)|^2
+ +\beta\,\psi^\dagger L_G\psi+\eta\,\mathcal R(G)
+ \label{eq:paperIV-candidate-graph-functional}
+\end{equation}
+makes the same boundary visible.  On an exact Gram domain the first term
+vanishes identically.  Without a norm, source or boundary constraint the
+second term has the trivial minimizer $\psi=0$.  The unspecified
+$\mathcal R(G)$ therefore carries whatever morphology is ultimately
+selected.  Treating that regularizer as harmless would only hide the physical
+source law in notation.
+
+A Graph/Hilbert formulation can be promoted in this paper only if the
+enriched Parent independently owns: (i) the algebra, state and probes that
+define $G$; (ii) a noncircular functional or stationarity law whose zero set
+selects the same frozen body; (iii) a typed handoff from its operator to the
+body Hessian or post-body channel; and (iv) an occupation criterion.  Until
+then the graph is a downstream representation and its spectral structures
+are conditional diagnostics.  This no-go strengthens the selection program
+by removing Gram positivity and low-mode language from the list of candidate
+Nature selectors.
 
 \section{Conclusion}
 
