@@ -1,5 +1,17 @@
 # Tau Core Foundation Paper IV Preparation
 
+**Morphology convention:** (B_\tau^{\rm base}) is the carrier/support
+context, the seed is its base-readable relation/load pattern, and the selected
+(M_\tau^\star) is the complete stabilized morphological response
+configuration (morphological body). Paper IV asks whether a physical law owns
+and occupies it; it does not infer literal formation or observer time.
+MRC-DEF2 treats those parent-side objects as typed pregeometric relational
+candidates rather than ordinary objects already embedded in recovered spacetime.
+Under PGP-CON1, Paper IV owns the stronger selection question for the typed
+package `(X_B,X_s,X_M,C_tau,G_tau,L_pre,Q_pre)`. It may specialize `L_pre`
+to an action only after the domain, variation, quotient, stability and unit
+bridge are independently sourced; stationarity does not prove occupation.
+
 ## Physical Parent-Law Realization for a Common Tau Completion
 
 This private repository prepares the fourth manuscript in the Roman Tau Core
@@ -26,6 +38,18 @@ must exclude any occupied terminal that varies along a
 \(\Xi_{OS}\)-fibre. The present eight-block packet enforces no-bypass only
 inside its declared occupied class. Nature-level occupation and ambient-source
 exhaustivity remain open.
+
+## Internal-Measurement Source Obligation
+
+The generalized post-body response theorem gives
+`D_o x_*=-H_X^-1 C_XO` and separates direct observer context from
+target-mediated backaction while the stabilized body remains fixed. Paper IV
+owns the remaining source question: does the physical base--seed--body packet
+actually select and occupy a nonzero typed `C_XO` before terminal inspection?
+Terminal change cannot answer this because context alone can change a record,
+and terminal nulls or unchanged stable cells can hide real response. The
+conditional identity is shared with ordinary interacting measurement models
+and is not itself a Tau-specific signal.
 
 ## Atemporal Parent-Realization Terminology
 
@@ -268,6 +292,23 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
 
 ## Claim Boundary
 
+The current readout notation separates the smooth shared Parent descriptor
+`Xi_OS^cont` from the resolved operational record
+`D_OS^op = Q_OS(Xi_OS^cont)`.  A legacy smooth descriptor `L` descends through
+the current one exactly when every `Xi_OS^cont` fibre lies inside an `L`
+fibre; infinitesimally this is
+`ker(D Xi_OS^cont) subseteq ker(D L)`.  Equality of the two fibre relations is
+required for descriptor equivalence.  This migration result preserves an
+already sourced terminal but does not source the physical intertwiner,
+quantizer, calibration, or Nature occupation.
+
+At a regular post-body stationary point the active linear response is not an
+independent solder parameter: `Gamma_resp = -H^-1 B`.  For the SBTCL106
+Bregman packet it reduces to `Gamma_resp = J_OS` and has zero Schur remainder.
+A same-reduct counterfamily nevertheless shows that positivity and Schur
+neutrality do not select the vertical source jet.  Its source ownership,
+physical occupation and nonzero terminal action remain open.
+
 Paper VI adds an exact boundary: operational factorization proves parent
 additivity only under joint primitive cross-defect faithfulness; an
 equal-readout hidden-cross parent otherwise survives.
@@ -303,6 +344,7 @@ Outputs:
 - `data/derived/mvp_source_signature.json`
 - `data/derived/w2_variational_certificate_audit.json`
 - `data/derived/w3_once_counted_ledger_import.json`
+- `data/derived/parent_readout_migration_ledger.json`
 - `data/derived/w4_candidate_selection_decision.json`
 - `data/derived/carrier_category_decision.json`
 - `data/derived/terminal_witness_handoff.json`

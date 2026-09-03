@@ -1,0 +1,13 @@
+{
+  "schema": "tau-core-parent-readout-migration-ledger-v1",
+  "continuous_descriptor": "Xi_OS^cont",
+  "operational_record": "D_OS^op=Q_OS(Xi_OS^cont)",
+  "smooth_migration": "ker(D Xi_OS^cont) subseteq ker(D L)",
+  "exact_descriptor_equivalence": "fiber(Xi_OS^cont)=fiber(L)",
+  "mixed_hessian_response": "Gamma=-H^{-1}B",
+  "sbtcl106_specialization": "Gamma=J_OS",
+  "physical_intertwiner_source_ownership": "open",
+  "nature_occupation": "open",
+  "physical_calibration": "open",
+  "q_R_derivation": "not_claimed"
+}

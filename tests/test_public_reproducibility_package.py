@@ -81,6 +81,9 @@ def test_manuscript_markers():
     assert "current unrestricted reduct does not" in tex
     assert "physical homogeneity class" in normalized
     assert "mixed-origin" in tex
+    assert "Internal-measurement source obligation" in tex
+    assert "eq:paperiv-gimb-source-obligation" in tex
+    assert "D_ox_*=-H_X^{-1}C_{XO}" in tex
 
 
 def test_deduplicated_signature():
@@ -251,3 +254,19 @@ def test_m4_metrological_boundary():
     assert "eq:paperiv-m4-metrological-orbit" in text
     assert "does not need to select that representative" in normalized
     assert "dimensionless coupling normalizations remain" in normalized
+
+
+def test_parent_readout_migration_ledger():
+    data = json.loads(
+        (ROOT / "data/derived/parent_readout_migration_ledger.json").read_text()
+    )
+    assert data["continuous_descriptor"] == "Xi_OS^cont"
+    assert data["operational_record"] == "D_OS^op=Q_OS(Xi_OS^cont)"
+    assert data["mixed_hessian_response"] == "Gamma=-H^{-1}B"
+    assert data["sbtcl106_specialization"] == "Gamma=J_OS"
+    assert data["physical_intertwiner_source_ownership"] == "open"
+    assert data["nature_occupation"] == "open"
+    tex = (ROOT / "paperIV_submission_source/main.tex").read_text()
+    assert "eq:paperiv-mopr-migration" in tex
+    assert "eq:paperiv-mixed-hessian-solder" in tex
+    assert "eq:paperiv-solder-counterfamily" in tex
