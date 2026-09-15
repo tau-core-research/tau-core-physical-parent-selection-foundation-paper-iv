@@ -84,6 +84,9 @@ def test_manuscript_markers():
     assert "Internal-measurement source obligation" in tex
     assert "eq:paperiv-gimb-source-obligation" in tex
     assert "D_ox_*=-H_X^{-1}C_{XO}" in tex
+    assert "Finite spectral and universe-inheritance comparator" in tex
+    assert "physical probability of viable offspring" in tex
+    assert "strict advantage in" in tex
 
 
 def test_deduplicated_signature():
@@ -270,3 +273,11 @@ def test_parent_readout_migration_ledger():
     assert "eq:paperiv-mopr-migration" in tex
     assert "eq:paperiv-mixed-hessian-solder" in tex
     assert "eq:paperiv-solder-counterfamily" in tex
+
+
+def test_ectr_source_completion_and_countermodel_are_present():
+    text = (ROOT / "paperIV_submission_source" / "main.tex").read_text()
+    assert "Legendre--Riesz completion and the remaining ECTR source gate" in text
+    assert "eq:paperiv-ectr-lock" in text
+    assert "eq:paperiv-ectr-counter" in text
+    assert "current action inventory does not yet force that joint packet" in text

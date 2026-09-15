@@ -29,6 +29,25 @@ representation/state datum. This closes them inside the enriched working
 completion but leaves exactly Paper IV's upstream question: which physical
 base--seed parent law realizes and occupies that datum?
 
+## Universe-seed evolution comparator (2026-09-12)
+
+The separately audited 17-packet universe-seed evolution proposal is a
+conditional comparator for Paper IV, not a second realized seed inside our
+universe. A finite source-side \(Q\)-complex, boundary-mode suppression,
+and an inter-universe inheritance kernel would require distinct, independently
+owned source laws. The finite operator and its domain cannot be selected by
+the measured proton or gravitational hierarchy. The proposed reproductive
+scale no-go applies only to its flat-direction toy, not to every positive
+weak-gravity fitness law; Gaussian closure and QCWR selection are conditional
+mathematics, not offspring physics. See the corrected
+[universe-seed evolution packet](https://github.com/jolcsak/tau-core/tree/43e475215f8fc5bf35610b0f450e582f7de148f3/theory/universe_seed_evolution).
+
+The theory repository's `experiments/finite_q_hierarchy/` now independently
+reproduces the finite-path spectrum, zero mode and residue, and implements
+one conditional boundary-coupled scalar mass lift. This closes the finite
+numerical example, while physical source/particle identity and offspring
+mechanism remain open.
+
 ## Common-Ancestor Source Obligation
 
 The declared readout family now factors through one shared preterminal
@@ -290,6 +309,25 @@ selector, a source-signature target, a proof ledger, and a reproducible figure.
   exhaustivity. The extension is either a quotient null or evidence that the
   descriptor is incomplete.
 
+## Expansion-Conditioned Source-Selection Boundary
+
+The ECTR completion supplies one explicit post-body source law,
+`A_LR=A_*[<x,Ahat_(0,M)x>/2-sqrt(2)<j,x>]`, whose dual Hessian forces
+`G=K_src/(2A_*)=k_(c,O)^2 A_(0,M)^-1`. This proves common mathematical
+provenance for a metric coframe and Q filter inside the declared completion.
+It does not show that the physical Tau source selects that coevaluation.
+
+Accordingly, observed expansion is not the source selector. The source action
+conditionally co-generates the metric-scale and terminal-weight laws; the
+scale may only modulate the latter after that upstream selection.
+
+The boundary is sharp: replacing the source pairing by
+`sqrt(2)<Cj,x>` preserves the frozen seed, body and coframe while producing
+`G_C=C^* Ahat_(0,M)^-1 C`. Zero and positive access rates also share the same
+seed/body spectrum. Paper IV therefore records the ECTR packet as a viable
+source candidate with exact countermodels, not as Nature-level selection or
+an inference from the observed Hubble sign.
+
 ## Claim Boundary
 
 The current readout notation separates the smooth shared Parent descriptor
@@ -370,3 +408,23 @@ law and common occupied carrier modulo gauge. `PD-USS-N1` proves that this
 selection does not imply a nonzero standard-orthogonal signal. The current
 Tau source does not jointly derive all premises, and the updated public audit
 finds `0/31` eligible two-role occupation packets.
+
+<!-- BEGIN OBSERVER UPDATE 20260914 -->
+## Observer realization update (2026-09-14)
+
+The occupied observer--source context is relational instance data, not a uniquely selected observer identity inferred from the universal seed alone. Physical source realization and record preparation remain separate from conditional closure.
+
+The manuscript distinguishes inherited BRAC contact, conditional coherent-state
+selection and interacting local covariance from physical observer identification,
+preparation and stable resolution. Those physical claims remain open. No
+empirical score was changed. The [dependency and source-result ledger](data/derived/observer_update_2026_09_14.json) records the assumptions and controls.
+<!-- END OBSERVER UPDATE 20260914 -->
+
+<!-- BEGIN LAB UPDATE 20260915 -->
+## Finite lab integration (2026-09-15)
+
+The manuscript imports the scope-specific source, body, observer or terminal
+result from the current lab. Supplied priors, conditional recovery and physical
+selection remain separate. No SI constant, viable universe or Tau-specific
+signal is newly established. See the [source and ownership ledger](data/derived/lab_update_2026_09_15.json).
+<!-- END LAB UPDATE 20260915 -->
