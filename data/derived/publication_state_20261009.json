@@ -4,7 +4,9 @@
     {
       "source": "paperIV_submission_source/main.tex",
       "role": "source",
-      "source_sha256": "936b01e7cc3989cbcf77ff07a87011fb9a91fc0fe16ae55725eaa0636f22f8fc"
+      "source_sha256": "c61083036f9c26b13828e92c04521f08f3bf41e5121327c860c83ad44e438ce8",
+      "source_sha256_before_full_chain_20261110": "936b01e7cc3989cbcf77ff07a87011fb9a91fc0fe16ae55725eaa0636f22f8fc",
+      "current_source_update": "2026-11-10 full HRZ-HSL bounded chain import"
     }
   ],
   "empirical_scores_changed": false,
