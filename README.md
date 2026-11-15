@@ -1,4 +1,4 @@
-# Tau Core Foundation Paper IV Preparation
+# Tau Core Foundation Paper IV
 
 **Morphology convention:** (B_\tau^{\rm base}) is the carrier/support
 context, the seed is its base-readable relation/load pattern, and the selected
@@ -445,3 +445,11 @@ Foundation VII-A retains the detailed response derivation and compact receipts.
 Negative controls, numerical warning qualifications and physical-selection,
 particle, spatial/renormalized, stability and cosmology gaps remain explicit.
 This is a local manuscript/PDF update, not a publication or new empirical score.
+
+## Foundations blocker audit import (2026-11-12)
+
+The manuscript now imports the `F16--F20` foundations blocker audit results from Technical Companions TD-0 and TD-I: Theorem `F18-T1` (sequential Schur positivity vs double-subtraction ghost creation) together with the once-counted reconstruction principle `OCSR-H1` (`lambda_min = +0.15975372 > 0` vs `PDSS-C1` and `D1`), Theorems `F17-T1` and `F17-T2` (two-sided nonlinear fold continuation on `(-0.02027049, +0.02905173)`, `0/10` coercive minima at `varepsilon = 1`, and disjoint stage relaxation under `G_slot = A_tau (I_4 (+) I_6)` with `SMSD-H1` vs `IGM-H1`), and `F19`/`F20-T1` (`S_4`-singlet star-row orientation `COCA-H1` and exact `tau`/`A_tau`-invariance of normalized parent ratios). Unrestricted `old-bare Tau` branch selection and the `k=4` vs `k=5` jet-carrier promotion boundary (`F6`) remain open.
+
+## Three-pillar closure and postulate-reduction update (2026-11-14)
+
+Foundation Paper IV (`paperIV_submission_source/main.tex`) integrates the 14 November 2026 upstream selection closure (`U1`, `U2`, `U4`, `F1`, `HOMOG-K4 H1--H4`): Chung's normalized Laplacian identity `Delta_hat_{K_4} = (4/3) P_perp = G_Cl` unifies raw spectral (`C2`) and unit-Clifford (`C1`) normalizations at `r_seed = 1/4` without Burg entropic barriers; pure-projector idempotence `Pi^2 = Pi` (`r_dot = 0`) proves `Gamma'_{1-loop}(1/4) < 0` is purely normal to `P_1(M_2(C))` with tangential `S^2` Hessian `+4 I_2 > 0`; local `S_4 x S_4` gauge symmetry enforces `kappa_dir^bare = 0` (`R4GATE-NATN1` closed); and the upstream ontic postulate count contracts to 1 (`POST-OCC-NU1`, `NATURE_LEVEL_CLOSURE = false`).
